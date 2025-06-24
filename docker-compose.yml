@@ -1,0 +1,17 @@
+services:
+  db:
+    container_name: postgres-db
+    image: postgres
+    restart: always
+    volumes:
+      - ./exercises:/data
+    networks:
+      - spring-postgres
+    environment:
+      POSTGRES_USER: workout-tracker
+      POSTGRES_DB: workout-tracker-db
+      POSTGRES_PASSWORD: gotogym
+    ports:
+      - "5432:5432"
+networks:
+  spring-postgres:

@@ -4,9 +4,7 @@ import com.romit.workouttracker.entities.Exercise;
 import com.romit.workouttracker.entities.Users;
 import com.romit.workouttracker.services.ExercisesService;
 import com.romit.workouttracker.services.UsersService;
-import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 

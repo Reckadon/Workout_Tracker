@@ -11,12 +11,10 @@ import org.springframework.web.bind.annotation.*;
 public class HomeController {
     private final UsersService usersService;
     private final JWTService jwtService;
-    private UserRepository userRepository;
 
-    public HomeController(UsersService usersService, JWTService jwtService, UserRepository userRepository) {
+    public HomeController(UsersService usersService, JWTService jwtService) {
         this.usersService = usersService;
         this.jwtService = jwtService;
-        this.userRepository = userRepository;
     }
 
     @GetMapping("/")

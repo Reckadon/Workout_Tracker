@@ -1,7 +1,6 @@
 package com.romit.workouttracker.controllers;
 
 import com.romit.workouttracker.entities.Users;
-import com.romit.workouttracker.repositories.UserRepository;
 import com.romit.workouttracker.services.JWTService;
 import com.romit.workouttracker.services.UsersService;
 import org.springframework.web.bind.annotation.*;
@@ -24,12 +23,12 @@ public class HomeController {
 
     @PostMapping("/register")
     public Users register(@RequestBody Users user) {
-        System.out.println(user);
         return usersService.registerUser(user);
     }
 
     @PostMapping("/login")
     public String login(@RequestBody Users user) {
+        System.out.println("Attempting login for user: " + user.getUsername() + " with password: " + user.getPassword());
         if (usersService.isUsernameAvailable(user.getUsername())) {
             return "Login failed: Username not found.";
         }

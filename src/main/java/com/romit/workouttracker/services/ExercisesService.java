@@ -1,6 +1,6 @@
 package com.romit.workouttracker.services;
 
-import com.romit.workouttracker.entities.Exercise;
+import com.romit.workouttracker.projections.ExerciseSlim;
 import com.romit.workouttracker.repositories.ExerciseRepository;
 import org.springframework.stereotype.Service;
 
@@ -14,10 +14,10 @@ public class ExercisesService {
         this.exerciseRepository = exerciseRepository;
     }
 
-    public List<Exercise> getExercises(String primaryMuscle) {
+    public List<ExerciseSlim> getExercises(String primaryMuscle) {
         if (primaryMuscle != null && !primaryMuscle.isEmpty()) {
             return exerciseRepository.findExerciseByPrimaryMusclesContains(primaryMuscle);
         }
-        return exerciseRepository.findAll();
+        return exerciseRepository.findAllProjectedBy();
     }
 }

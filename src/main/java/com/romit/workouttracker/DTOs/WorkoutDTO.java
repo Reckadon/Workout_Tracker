@@ -2,5 +2,5 @@ package com.romit.workouttracker.DTOs;
 
 import java.time.LocalDateTime;
 
-public record WorkoutDTO(LocalDateTime workoutDate) {}
+public record WorkoutDTO(Long id, LocalDateTime workoutDateTime) {}
 

@@ -29,6 +29,13 @@ public class ApiController {
         return exercisesService.getExercises(primaryMuscle);
     }
 
+    @GetMapping("/workouts")
+    public ResponseEntity<?> getWorkouts(@RequestHeader("Authorization") String auth) {
+        String token = auth.substring(7);
+        String username = jwt.extractUsername(token);
+        return ResponseEntity.ok(workoutService.getWorkouts(username));
+    }
+
     @PostMapping("/workout/log")
     public ResponseEntity<?> log(@RequestBody WorkoutDTO dto,
                                  @RequestHeader("Authorization") String auth) {

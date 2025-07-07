@@ -22,7 +22,7 @@ public class WorkoutService {
     public void saveWorkout(String username, WorkoutDTO dto) {
         Users user = usersRepo.findByUsername(username);
         Workout w = new Workout();
-        w.setWorkoutDateTime(dto.workoutDate());
+        w.setWorkoutDateTime(dto.workoutDateTime());
         w.setUser(user);
 
 //        dto.exercises().forEach(e -> {
@@ -37,7 +37,7 @@ public class WorkoutService {
         workoutRepo.save(w);
     }
 
-    public List<Workout> getWorkouts(String username) {
+    public List<WorkoutDTO> getWorkouts(String username) {
         Users user = usersRepo.findByUsername(username);
         return workoutRepo.findByUserId(user.getId());
     }

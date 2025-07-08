@@ -1,7 +1,8 @@
 import http from "k6/http";
-import { sleep, check } from "k6";
+import {check} from "k6";
+import { SharedArray } from "k6/data";
 
-const token = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyb21pdCIsImlhdCI6MTc1MTkyNDg4MCwiZXhwIjoxNzUxOTI4NDgwfQ.nTYx_aiD644kwTrHgvQJzka9rJfujAOn0pTNH0QHSIY";
+const token = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyb21pdCIsImlhdCI6MTc1MTk1ODg0MiwiZXhwIjoxNzUxOTYyNDQyfQ.PfWQy-TKwgNcI5JJsbwk3dD4dt2sd0xfb21AlpgdgfM";
 export const options = {
 	stages: [
         { duration: "30s", target: 20 }, // Ramp up to 10 users over 30 seconds
@@ -10,12 +11,17 @@ export const options = {
     ]
 };
 
+const muscles = new SharedArray('muscles', function () {
+	return ['', 'abdominals', 'adductors', 'biceps', 'calves', 'chest', 'forearms', 'glutes', 'hamstrings', 'lats', 'lower back', 'middle back', 'neck', 'quadriceps', 'shoulders', 'traps', 'triceps']
+});
+
 export default function () {
 	const options = {
 		headers: {
 			Authorization: `Bearer ${token}`,
 		},
 	};
-	let res = http.get("http://localhost:8080/api/exercises", options);
+	const randomMuscle = muscles[Math.floor(Math.random() * muscles.length)];
+	let res = http.get(`http://localhost:8080/api/exercises?primaryMuscle=${randomMuscle}`, options);
 	check(res, { "status is 200": res => res.status === 200 });
 }

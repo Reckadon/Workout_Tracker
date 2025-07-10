@@ -179,7 +179,7 @@
     ],
     "secondaryMuscles": [],
     "instructions": [
-      "Lie flat on the floor with your lower back pressed to the ground. For this exercise, you will need to put your hands beside your head. Be careful however to not strain with the neck as you perform it. Now lift your shoulders into the crunch position.",
+      "Lie flat on the floor with your lower_back pressed to the ground. For this exercise, you will need to put your hands beside your head. Be careful however to not strain with the neck as you perform it. Now lift your shoulders into the crunch position.",
       "Bring knees up to where they are perpendicular to the floor, with your lower legs parallel to the floor. This will be your starting position.",
       "Now simultaneously, slowly go through a cycle pedal motion kicking forward with the right leg and bringing in the knee of the left leg. Bring your right elbow close to your left knee by crunching to the side, as you breathe out.",
       "Go back to the initial position as you breathe in.",
@@ -413,7 +413,7 @@
       "calves",
       "forearms",
       "glutes",
-      "lower back",
+      "lower_back",
       "traps"
     ],
     "instructions": [
@@ -459,7 +459,7 @@
     "mechanic": "isolation",
     "equipment": "kettlebells",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -484,7 +484,7 @@
     "mechanic": "compound",
     "equipment": "kettlebells",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "abdominals",
@@ -580,7 +580,7 @@
       "shoulders"
     ],
     "secondaryMuscles": [
-      "middle back",
+      "middle_back",
       "traps",
       "triceps"
     ],
@@ -678,7 +678,7 @@
     "mechanic": "compound",
     "equipment": "other",
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -707,7 +707,7 @@
     "mechanic": "compound",
     "equipment": "other",
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "abdominals",
@@ -717,7 +717,7 @@
       "forearms",
       "glutes",
       "hamstrings",
-      "middle back",
+      "middle_back",
       "quadriceps",
       "traps"
     ],
@@ -741,13 +741,13 @@
     "mechanic": "compound",
     "equipment": "other",
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "forearms",
       "glutes",
       "hamstrings",
-      "middle back",
+      "middle_back",
       "quadriceps",
       "traps"
     ],
@@ -774,7 +774,7 @@
       "shoulders"
     ],
     "secondaryMuscles": [
-      "middle back",
+      "middle_back",
       "triceps"
     ],
     "instructions": [
@@ -806,7 +806,7 @@
       "forearms",
       "glutes",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Load a sled with the desired weight, attaching a rope or straps to the sled that you can hold onto.",
@@ -906,7 +906,7 @@
     "secondaryMuscles": [
       "abdominals",
       "forearms",
-      "middle back"
+      "middle_back"
     ],
     "instructions": [
       "Choke the band around the center of the pullup bar. You can use different bands to provide varying levels of assistance.",
@@ -932,7 +932,7 @@
     ],
     "secondaryMuscles": [
       "glutes",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Using a 41 inch band, stand on one end, spreading your feet a small amount. Bend at the hips to loop the end of the band behind your neck. This will be your starting position.",
@@ -957,7 +957,7 @@
     ],
     "secondaryMuscles": [
       "glutes",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Loop the band around a post. Standing a little ways away, loop the opposite end around the neck. Your hands can help hold the band in position.",
@@ -1006,7 +1006,7 @@
       "shoulders"
     ],
     "secondaryMuscles": [
-      "middle back",
+      "middle_back",
       "traps"
     ],
     "instructions": [
@@ -1054,7 +1054,7 @@
       "abdominals"
     ],
     "secondaryMuscles": [
-      "lower back",
+      "lower_back",
       "shoulders"
     ],
     "instructions": [
@@ -1080,7 +1080,7 @@
       "abdominals"
     ],
     "secondaryMuscles": [
-      "lower back",
+      "lower_back",
       "shoulders"
     ],
     "instructions": [
@@ -1179,7 +1179,7 @@
     "mechanic": "compound",
     "equipment": "barbell",
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "calves",
@@ -1187,7 +1187,7 @@
       "glutes",
       "hamstrings",
       "lats",
-      "middle back",
+      "middle_back",
       "quadriceps",
       "traps"
     ],
@@ -1218,7 +1218,7 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "This exercise is best performed inside a squat rack for safety purposes. To begin, first set the bar on a rack just above shoulder level. Once the correct height is chosen and the bar is loaded, step under the bar and place the back of your shoulders (slightly below the neck) across it.",
@@ -1431,7 +1431,7 @@
     "secondaryMuscles": [
       "biceps",
       "lats",
-      "middle back"
+      "middle_back"
     ],
     "instructions": [
       "Stand up straight while holding a barbell using a wide (higher than shoulder width) and overhand (palms facing your body) grip.",
@@ -1560,7 +1560,7 @@
     ],
     "secondaryMuscles": [
       "forearms",
-      "middle back"
+      "middle_back"
     ],
     "instructions": [
       "Stand up straight with your feet at shoulder width as you hold a barbell with both hands behind your back using a pronated grip (palms facing back). Tip: Your hands should be a little wider than shoulder width apart. You can use wrist wraps for this exercise for better grip. This will be your starting position.",
@@ -1585,7 +1585,7 @@
       "abdominals"
     ],
     "secondaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Stand up straight while holding a barbell placed on the back of your shoulders (slightly below the neck). Your feet should be shoulder width apart. This will be your starting position.",
@@ -1612,7 +1612,7 @@
     "secondaryMuscles": [
       "calves",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Stand up straight while holding a barbell placed on the back of your shoulders (slightly below the neck). Your feet should be placed wide apart with the foot of the lead leg angled out to the side. This will be your starting position.",
@@ -1640,7 +1640,7 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "This exercise is best performed inside a squat rack for safety purposes. To begin, first set the bar on a rack to just below shoulder level. Once the correct height is chosen and the bar is loaded, step under the bar and place the back of your shoulders (slightly below the neck) across it.",
@@ -1670,7 +1670,7 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "This exercise is best performed inside a squat rack for safety purposes. To begin, first place a flat bench or a box behind you. The flat bench is used to teach you to set your hips back and to hit depth.",
@@ -2074,7 +2074,7 @@
     "mechanic": "compound",
     "equipment": "barbell",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -2128,8 +2128,8 @@
       "shoulders"
     ],
     "secondaryMuscles": [
-      "lower back",
-      "middle back",
+      "lower_back",
+      "middle_back",
       "traps"
     ],
     "instructions": [
@@ -2153,12 +2153,12 @@
     "mechanic": "compound",
     "equipment": "barbell",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
       "lats",
-      "lower back",
+      "lower_back",
       "traps"
     ],
     "instructions": [
@@ -2183,7 +2183,7 @@
     "mechanic": "compound",
     "equipment": "barbell",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -2211,7 +2211,7 @@
     "mechanic": "compound",
     "equipment": "dumbbell",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -2238,7 +2238,7 @@
     "mechanic": "compound",
     "equipment": "dumbbell",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -2269,7 +2269,7 @@
     "secondaryMuscles": [
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "quadriceps",
       "shoulders",
       "triceps"
@@ -2448,7 +2448,7 @@
     "mechanic": "compound",
     "equipment": "other",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -2665,11 +2665,11 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "The box squat allows you to squat to desired depth and develop explosive strength in the squat movement. Begin in a power rack with a box at the appropriate height behind you. Typically, you would aim for a box height that brings you to a parallel squat, but you can train higher or lower if desired.",
-      "Begin by stepping under the bar and placing it across the back of the shoulders. Squeeze your shoulder blades together and rotate your elbows forward, attempting to bend the bar across your shoulders. Remove the bar from the rack, creating a tight arch in your lower back, and step back into position. Place your feet wider for more emphasis on the back, glutes, adductors, and hamstrings, or closer together for more quad development. Keep your head facing forward.",
+      "Begin by stepping under the bar and placing it across the back of the shoulders. Squeeze your shoulder blades together and rotate your elbows forward, attempting to bend the bar across your shoulders. Remove the bar from the rack, creating a tight arch in your lower_back, and step back into position. Place your feet wider for more emphasis on the back, glutes, adductors, and hamstrings, or closer together for more quad development. Keep your head facing forward.",
       "With your back, shoulders, and core tight, push your knees and butt out and you begin your descent. Sit back with your hips until you are seated on the box. Ideally, your shins should be perpendicular to the ground. Pause when you reach the box, and relax the hip flexors. Never bounce off of a box.",
       "Keeping the weight on your heels and pushing your feet and knees out, drive upward off of the box as you lead the movement with your head. Continue upward, maintaining tightness head to toe."
     ],
@@ -2695,11 +2695,11 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Begin in a power rack with a box at the appropriate height behind you. Set up the bands on the sleeves, secured to either band pegs, the rack, or dumbbells so that there is appropriate tension. If dumbbells are used, secure them so that they don't move. Also, ensure that the dumbbells you are using are heavy enough for the bands that you are using. Additional plates can be used to hold the dumbbells down. If more tension is needed, you can either widen the base on the floor or choke the bands. Typically, you would aim for a box height that brings you to a parallel squat, but you can train higher or lower if desired.",
-      "Begin by stepping under the bar and placing it across the back of the shoulders. Squeeze your shoulder blades together and rotate your elbows forward, attempting to bend the bar across your shoulders. Remove the bar from the rack, creating a tight arch in your lower back, and step back into position. Place your feet wider for more emphasis on the back, glutes, adductors, and hamstrings, or closer together for more quad development. Keep your head facing forward.",
+      "Begin by stepping under the bar and placing it across the back of the shoulders. Squeeze your shoulder blades together and rotate your elbows forward, attempting to bend the bar across your shoulders. Remove the bar from the rack, creating a tight arch in your lower_back, and step back into position. Place your feet wider for more emphasis on the back, glutes, adductors, and hamstrings, or closer together for more quad development. Keep your head facing forward.",
       "With your back, shoulders, and core tight, push your knees and butt out and you begin your descent. Sit back with your hips until you are seated on the box. Ideally, your shins should be perpendicular to the ground. Pause when you reach the box, and relax the hip flexors. Never bounce off of a box.",
       "Keeping the weight on your heels and pushing your feet and knees out, drive upward off of the box as you lead the movement with your head. Continue upward, maintaining tightness head to toe. Use care to return the barbell to the rack."
     ],
@@ -2725,12 +2725,12 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Begin in a power rack with a box at the appropriate height behind you. Typically, you would aim for a box height that brings you to a parallel squat, but you can train higher or lower if desired.",
       "To set up the chains, begin by looping the leader chain over the sleeves of the bar. The heavy chain should be attached using a snap hook. Adjust the length of the lead chain so that a few links are still on the floor at the top of the movement.",
-      "Begin by stepping under the bar and placing it across the back of the shoulders. Squeeze your shoulder blades together and rotate your elbows forward, attempting to bend the bar across your shoulders. Remove the bar from the rack, creating a tight arch in your lower back, and step back into position. Place your feet wider for more emphasis on the back, glutes, adductors, and hamstrings, or closer together for more quad development. Keep your head facing forward.",
+      "Begin by stepping under the bar and placing it across the back of the shoulders. Squeeze your shoulder blades together and rotate your elbows forward, attempting to bend the bar across your shoulders. Remove the bar from the rack, creating a tight arch in your lower_back, and step back into position. Place your feet wider for more emphasis on the back, glutes, adductors, and hamstrings, or closer together for more quad development. Keep your head facing forward.",
       "With your back, shoulders, and core tight, push your knees and butt out and you begin your descent. Sit back with your hips until you are seated on the box. Ideally, your shins should be perpendicular to the ground. Pause when you reach the box, and relax the hip flexors. Never bounce off of a box.",
       "Keeping the weight on your heels and pushing your feet and knees out, drive upward off of the box as you lead the movement with your head. Continue upward, maintaining tightness head to toe."
     ],
@@ -2803,7 +2803,7 @@
       "Begin a pushup position but with your elbows on the ground and resting on your forearms. Your arms should be bent at a 90 degree angle.",
       "Arch your back slightly out rather than keeping your back completely straight.",
       "Raise your glutes toward the ceiling, squeezing your abs tightly to close the distance between your ribcage and hips. The end result will be that you'll end up in a high bridge position. Exhale as you perform this portion of the movement.",
-      "Lower back down slowly to your starting position as you breathe in. Tip: Don't let your back sag downwards.",
+      "lower_back down slowly to your starting position as you breathe in. Tip: Don't let your back sag downwards.",
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
@@ -2926,9 +2926,9 @@
     "instructions": [
       "Kneel below a high pulley that contains a rope attachment.",
       "Grasp cable rope attachment and lower the rope until your hands are placed next to your face.",
-      "Flex your hips slightly and allow the weight to hyperextend the lower back. This will be your starting position.",
+      "Flex your hips slightly and allow the weight to hyperextend the lower_back. This will be your starting position.",
       "With the hips stationary, flex the waist as you contract the abs so that the elbows travel towards the middle of the thighs. Exhale as you perform this portion of the movement and hold the contraction for a second.",
-      "Slowly return to the starting position as you inhale. Tip: Make sure that you keep constant tension on the abs throughout the movement. Also, do not choose a weight so heavy that the lower back handles the brunt of the work.",
+      "Slowly return to the starting position as you inhale. Tip: Make sure that you keep constant tension on the abs throughout the movement. Also, do not choose a weight so heavy that the lower_back handles the brunt of the work.",
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
@@ -2951,7 +2951,7 @@
       "forearms",
       "glutes",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Move the cables to the bottom of the towers and select an appropriate weight. Stand directly in between the uprights.",
@@ -3297,12 +3297,12 @@
     ],
     "secondaryMuscles": [
       "biceps",
-      "middle back"
+      "middle_back"
     ],
     "instructions": [
       "Sit in the same position on a low pulley row station as you would if you were doing seated cable rows for the back.",
       "Attach a rope to the pulley and grasp it with an overhand grip. Your arms should be extended and parallel to the floor with the elbows flared out.",
-      "Keep your lower back upright and slide your hips back so that your knees are slightly bent. This will be your starting position.",
+      "Keep your lower_back upright and slide your hips back so that your knees are slightly bent. This will be your starting position.",
       "Pull the cable attachment towards your upper chest, just below the neck, as you keep your elbows up and out to the sides. Continue this motion as you exhale until the elbows travel slightly behind the back. Tip: Keep your upper arms horizontal, perpendicular to the torso and parallel to the floor throughout the motion.",
       "Go back to the initial position where the arms are extended and the shoulders are stretched forward. Inhale as you perform this portion of the movement.",
       "Repeat for the recommended amount of repetitions."
@@ -3352,7 +3352,7 @@
     "secondaryMuscles": [],
     "instructions": [
       "Seat on a flat bench with your back facing a high pulley.",
-      "Grasp the cable rope attachment with both hands (with the palms of the hands facing each other) and place your hands securely over both shoulders. Tip: Allow the weight to hyperextend the lower back slightly. This will be your starting position.",
+      "Grasp the cable rope attachment with both hands (with the palms of the hands facing each other) and place your hands securely over both shoulders. Tip: Allow the weight to hyperextend the lower_back slightly. This will be your starting position.",
       "With the hips stationary, flex the waist so the elbows travel toward the hips. Breathe out as you perform this step.",
       "As you inhale, go back to the initial position slowly.",
       "Repeat for the recommended amount of repetitions."
@@ -3374,7 +3374,7 @@
       "shoulders"
     ],
     "secondaryMuscles": [
-      "middle back",
+      "middle_back",
       "traps"
     ],
     "instructions": [
@@ -3663,7 +3663,7 @@
       "forearms",
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "traps"
     ],
     "instructions": [
@@ -3740,15 +3740,15 @@
     "mechanic": null,
     "equipment": null,
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
-      "middle back",
+      "middle_back",
       "traps"
     ],
     "instructions": [
       "Position yourself on the floor on your hands and knees.",
-      "Pull your belly in and round your spine, lower back, shoulders, and neck, letting your head drop.",
+      "Pull your belly in and round your spine, lower_back, shoulders, and neck, letting your head drop.",
       "Hold for 15 seconds."
     ],
     "category": "stretching",
@@ -3857,7 +3857,7 @@
     "id": "Chair_Leg_Extended_Stretch"
   },
   {
-    "name": "Chair Lower Back Stretch",
+    "name": "Chair lower_back Stretch",
     "force": "static",
     "level": "beginner",
     "mechanic": "isolation",
@@ -3866,7 +3866,7 @@
       "lats"
     ],
     "secondaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Sit upright on a chair.",
@@ -4091,11 +4091,11 @@
     "mechanic": null,
     "equipment": null,
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "glutes",
-      "middle back"
+      "middle_back"
     ],
     "instructions": [
       "Get on your hands and knees, walk your hands in front of you.",
@@ -4121,11 +4121,11 @@
     "secondaryMuscles": [
       "biceps",
       "forearms",
-      "middle back"
+      "middle_back"
     ],
     "instructions": [
       "Grab the pull-up bar with the palms facing your torso and a grip closer than the shoulder width.",
-      "As you have both arms extended in front of you holding the bar at the chosen grip width, keep your torso as straight as possible while creating a curvature on your lower back and sticking your chest out. This is your starting position. Tip: Keeping the torso as straight as possible maximizes biceps stimulation while minimizing back involvement.",
+      "As you have both arms extended in front of you holding the bar at the chosen grip width, keep your torso as straight as possible while creating a curvature on your lower_back and sticking your chest out. This is your starting position. Tip: Keeping the torso as straight as possible maximizes biceps stimulation while minimizing back involvement.",
       "As you breathe out, pull your torso up until your head is around the level of the pull-up bar. Concentrate on using the biceps muscles in order to perform the movement. Keep the elbows close to your body. Tip: The upper torso should remain stationary as it moves through space and only the arms should move. The forearms should do no other work other than hold the bar.",
       "After a second of squeezing the biceps in the contracted position, slowly lower your torso back to the starting position; when your arms are fully extended. Breathe in as you perform this portion of the movement.",
       "Repeat this motion for the prescribed amount of repetitions."
@@ -4173,7 +4173,7 @@
       "forearms",
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "traps",
       "triceps"
     ],
@@ -4203,7 +4203,7 @@
       "calves",
       "forearms",
       "glutes",
-      "lower back",
+      "lower_back",
       "quadriceps",
       "shoulders",
       "traps"
@@ -4235,8 +4235,8 @@
     "secondaryMuscles": [
       "forearms",
       "glutes",
-      "lower back",
-      "middle back",
+      "lower_back",
+      "middle_back",
       "quadriceps",
       "traps"
     ],
@@ -4265,7 +4265,7 @@
       "forearms",
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "traps"
     ],
     "instructions": [
@@ -4317,7 +4317,7 @@
       "abdominals",
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "quadriceps",
       "traps",
       "triceps"
@@ -4353,8 +4353,8 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back",
-      "middle back",
+      "lower_back",
+      "middle_back",
       "quadriceps",
       "shoulders",
       "traps",
@@ -4577,13 +4577,13 @@
     ],
     "secondaryMuscles": [
       "biceps",
-      "middle back",
+      "middle_back",
       "shoulders"
     ],
     "instructions": [
       "Sit down on a pull-down machine with a wide bar attached to the top pulley. Make sure that you adjust the knee pad of the machine to fit your height. These pads will prevent your body from being raised by the resistance attached to the bar.",
       "Grab the bar with the palms facing forward using the prescribed grip. Note on grips: For a wide grip, your hands need to be spaced out at a distance wider than your shoulder width. For a medium grip, your hands need to be spaced out at a distance equal to your shoulder width and for a close grip at a distance smaller than your shoulder width.",
-      "As you have both arms extended in front of you - while holding the bar at the chosen grip width - bring your torso back around 30 degrees or so while creating a curvature on your lower back and sticking your chest out. This is your starting position.",
+      "As you have both arms extended in front of you - while holding the bar at the chosen grip width - bring your torso back around 30 degrees or so while creating a curvature on your lower_back and sticking your chest out. This is your starting position.",
       "As you breathe out, bring the bar down until it touches your upper chest by drawing the shoulders and the upper arms down and back. Tip: Concentrate on squeezing the back muscles once you reach the full contracted position. The upper torso should remain stationary (only the arms should move). The forearms should do no other work except for holding the bar; therefore do not try to pull the bar down using the forearms.",
       "After a second in the contracted position, while squeezing your shoulder blades together, slowly raise the bar back to the starting position when your arms are fully extended and the lats are fully stretched. Inhale during this portion of the movement.",
       "6. Repeat this motion for the prescribed amount of repetitions."
@@ -4684,7 +4684,7 @@
       "biceps",
       "calves",
       "forearms",
-      "lower back",
+      "lower_back",
       "shoulders",
       "traps"
     ],
@@ -4809,7 +4809,7 @@
     "mechanic": null,
     "equipment": null,
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "abdominals",
@@ -4892,7 +4892,7 @@
       "Place your feet three to four inches apart and point your toes inward so they touch.",
       "Place your hands lightly on either side of your head keeping your elbows in. Tip: Don't lock your fingers behind your head.",
       "Push the small of your back down in the floor in order to better isolate your abdominal muscles. This will be your starting position.",
-      "Begin to roll your shoulders off the floor and continue to push down as hard as you can with your lower back. Your shoulders should come up off the floor only about four inches, and your lower back should remain on the floor. Breathe out as you execute this portion of the movement. Squeeze your abdominals hard at the top of the contraction and hold for a second. Tip: Focus on a slow, controlled movement. Refrain from using momentum at any time.",
+      "Begin to roll your shoulders off the floor and continue to push down as hard as you can with your lower_back. Your shoulders should come up off the floor only about four inches, and your lower_back should remain on the floor. Breathe out as you execute this portion of the movement. Squeeze your abdominals hard at the top of the contraction and hold for a second. Tip: Focus on a slow, controlled movement. Refrain from using momentum at any time.",
       "Slowly go back down to the starting position as you inhale.",
       "Repeat for the recommended amount of repetitions."
     ],
@@ -4917,7 +4917,7 @@
       "Lie flat on your back with your feet flat on the ground, or resting on a bench with your knees bent at a 90 degree angle. If you are resting your feet on a bench, place them three to four inches apart and point your toes inward so they touch.",
       "Now place your hands lightly on either side of your head keeping your elbows in. Tip: Don't lock your fingers behind your head.",
       "While pushing the small of your back down in the floor to better isolate your abdominal muscles, begin to roll your shoulders off the floor.",
-      "Continue to push down as hard as you can with your lower back as you contract your abdominals and exhale. Your shoulders should come up off the floor only about four inches, and your lower back should remain on the floor. At the top of the movement, contract your abdominals hard and keep the contraction for a second. Tip: Focus on slow, controlled movement - don't cheat yourself by using momentum.",
+      "Continue to push down as hard as you can with your lower_back as you contract your abdominals and exhale. Your shoulders should come up off the floor only about four inches, and your lower_back should remain on the floor. At the top of the movement, contract your abdominals hard and keep the contraction for a second. Tip: Focus on slow, controlled movement - don't cheat yourself by using momentum.",
       "After the one second contraction, begin to come down slowly again to the starting position as you inhale.",
       "Repeat for the recommended amount of repetitions."
     ],
@@ -4961,7 +4961,7 @@
     "mechanic": null,
     "equipment": null,
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "abductors",
@@ -5013,13 +5013,13 @@
     "mechanic": "compound",
     "equipment": "barbell",
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "forearms",
       "glutes",
       "hamstrings",
-      "middle back",
+      "middle_back",
       "quadriceps",
       "traps"
     ],
@@ -5042,13 +5042,13 @@
     "mechanic": "compound",
     "equipment": "barbell",
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "forearms",
       "glutes",
       "hamstrings",
-      "middle back",
+      "middle_back",
       "quadriceps",
       "traps"
     ],
@@ -5136,7 +5136,7 @@
       "Secure your legs at the end of the decline bench and lie down.",
       "Now place your hands lightly on either side of your head keeping your elbows in. Tip: Don't lock your fingers behind your head.",
       "While pushing the small of your back down in the bench to better isolate your abdominal muscles, begin to roll your shoulders off it.",
-      "Continue to push down as hard as you can with your lower back as you contract your abdominals and exhale. Your shoulders should come up off the bench only about four inches, and your lower back should remain on the bench. At the top of the movement, contract your abdominals hard and keep the contraction for a second. Tip: Focus on slow, controlled movement - don't cheat yourself by using momentum.",
+      "Continue to push down as hard as you can with your lower_back as you contract your abdominals and exhale. Your shoulders should come up off the bench only about four inches, and your lower_back should remain on the bench. At the top of the movement, contract your abdominals hard and keep the contraction for a second. Tip: Focus on slow, controlled movement - don't cheat yourself by using momentum.",
       "After the one second contraction, begin to come down slowly again to the starting position as you inhale.",
       "Repeat for the recommended amount of repetitions."
     ],
@@ -5356,13 +5356,13 @@
     "mechanic": "compound",
     "equipment": "barbell",
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "forearms",
       "glutes",
       "hamstrings",
-      "middle back",
+      "middle_back",
       "quadriceps",
       "traps"
     ],
@@ -5497,7 +5497,7 @@
     ],
     "secondaryMuscles": [],
     "instructions": [
-      "For this exercise you will need access to a donkey calf raise machine. Start by positioning your lower back and hips under the padded lever provided. The tailbone area should be the one making contact with the pad.",
+      "For this exercise you will need access to a donkey calf raise machine. Start by positioning your lower_back and hips under the padded lever provided. The tailbone area should be the one making contact with the pad.",
       "Place both of your arms on the side handles and place the balls of your feet on the calf block with the heels extending off. Align the toes forward, inward or outward, depending on the area you wish to target, and straighten the knees without locking them. This will be your starting position.",
       "Raise your heels as you breathe out by extending your ankles as high as possible and flexing your calf. Ensure that the knee is kept stationary at all times. There should be no bending at any time. Hold the contracted position by a second before you start to go back down.",
       "Go back slowly to the starting position as you breathe in by lowering your heels as you bend the ankles until calves are stretched.",
@@ -5524,7 +5524,7 @@
       "calves",
       "forearms",
       "glutes",
-      "lower back",
+      "lower_back",
       "quadriceps",
       "traps"
     ],
@@ -5870,7 +5870,7 @@
       "calves",
       "forearms",
       "glutes",
-      "lower back",
+      "lower_back",
       "quadriceps",
       "shoulders",
       "traps"
@@ -5945,7 +5945,7 @@
     "mechanic": "compound",
     "equipment": "dumbbell",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -6029,7 +6029,7 @@
       "shoulders"
     ],
     "secondaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "instructions": [
       "While holding a dumbbell in one hand, lay with your chest down on a slightly inclined (around 15 degrees when measured from the floor) adjustable bench. The other hand can be used to hold to the leg of the bench for stability.",
@@ -6437,7 +6437,7 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Stand up straight while holding a dumbbell on each hand (palms facing the side of your legs).",
@@ -6466,7 +6466,7 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Stand up straight with a flat bench behind you while holding a dumbbell on each hand (palms facing the side of your legs).",
@@ -6563,7 +6563,7 @@
       "chest"
     ],
     "secondaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "instructions": [
       "Stand with your hands together, arms extended directly in front of you. This will be your starting position.",
@@ -6685,7 +6685,7 @@
     ],
     "instructions": [
       "Stand up straight.",
-      "Place both hands on your lower back, fingers pointing downward and elbows out.",
+      "Place both hands on your lower_back, fingers pointing downward and elbows out.",
       "Then gently pull your elbows back aiming to touch them together."
     ],
     "category": "stretching",
@@ -6731,7 +6731,7 @@
       "lats"
     ],
     "secondaryMuscles": [
-      "middle back",
+      "middle_back",
       "traps"
     ],
     "instructions": [
@@ -6786,9 +6786,9 @@
     ],
     "secondaryMuscles": [],
     "instructions": [
-      "Lie on an exercise ball with your lower back curvature pressed against the spherical surface of the ball. Your feet should be bent at the knee and pressed firmly against the floor. The upper torso should be hanging off the top of the ball. The arms should either be kept alongside the body or crossed on top of your chest as these positions avoid neck strains (as opposed to the hands behind the back of the head position).",
+      "Lie on an exercise ball with your lower_back curvature pressed against the spherical surface of the ball. Your feet should be bent at the knee and pressed firmly against the floor. The upper torso should be hanging off the top of the ball. The arms should either be kept alongside the body or crossed on top of your chest as these positions avoid neck strains (as opposed to the hands behind the back of the head position).",
       "Lower your torso into a stretch position keeping the neck stationary at all times. This will be your starting position.",
-      "With the hips stationary, flex the waist by contracting the abdominals and curl the shoulders and trunk upward until you feel a nice contraction on your abdominals. The arms should simply slide up the side of your legs if you have them at the side or just stay on top of your chest if you have them crossed. The lower back should always stay in contact with the ball. Exhale as you perform this movement and hold the contraction for a second.",
+      "With the hips stationary, flex the waist by contracting the abdominals and curl the shoulders and trunk upward until you feel a nice contraction on your abdominals. The arms should simply slide up the side of your legs if you have them at the side or just stay on top of your chest if you have them crossed. The lower_back should always stay in contact with the ball. Exhale as you perform this movement and hold the contraction for a second.",
       "As you inhale, go back to the starting position.",
       "Repeat for the recommended amount of repetitions."
     ],
@@ -6929,7 +6929,7 @@
       "shoulders"
     ],
     "secondaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "instructions": [
       "Facing a high pulley with a rope or dual handles attached, pull the weight directly towards your face, separating your hands as you do so. Keep your upper arms parallel to the ground."
@@ -6954,7 +6954,7 @@
       "abdominals",
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "quadriceps",
       "traps"
     ],
@@ -7368,8 +7368,8 @@
       "Now bend at the knees and place your outer thighs by the floor (or mat) as you make the soles of your feet touch each other.",
       "Now try pushing both soles and bringing them up as near you as possible while you keep the outer thighs on the floor (or at least almost touching it). Tip: In this position your legs should create a diamond shape.",
       "Now, cross your arms in front of you by touching the opposite shoulders. This will be your starting position.",
-      "As you exhale flatten your lower back to the floor while curling the torso upwards. Tip: This will be like performing the first 1/4 movement of a sit up. Hold at the top position for a second.",
-      "As you inhale, slowly lower back to the starting position.",
+      "As you exhale flatten your lower_back to the floor while curling the torso upwards. Tip: This will be like performing the first 1/4 movement of a sit up. Hold at the top position for a second.",
+      "As you inhale, slowly lower_back to the starting position.",
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
@@ -7725,12 +7725,12 @@
     ],
     "secondaryMuscles": [
       "biceps",
-      "middle back",
+      "middle_back",
       "shoulders"
     ],
     "instructions": [
       "Either standing or seated on a high bench, grasp two stirrup cables that are attached to the high pulleys. Grab with the opposing hand so your arms are crisscrossed about you and your palms are facing forward.",
-      "Keeping your chest up and maintaining a slight arch in your lower back, pull the handles down as if you were doing a regular pulldown. The range of motion will be more of an arc. During the movement, rotate your hands so that in the bottom position your palms face each other rather than forward. Return slowly to the starting position and repeat."
+      "Keeping your chest up and maintaining a slight arch in your lower_back, pull the handles down as if you were doing a regular pulldown. The range of motion will be more of an arc. During the movement, rotate your hands so that in the bottom position your palms face each other rather than forward. Return slowly to the starting position and repeat."
     ],
     "category": "strength",
     "images": [
@@ -7750,7 +7750,7 @@
     ],
     "secondaryMuscles": [
       "biceps",
-      "middle back"
+      "middle_back"
     ],
     "instructions": [
       "Grasp the pull-up bar with a shoulder width underhand grip.",
@@ -7856,7 +7856,7 @@
     "secondaryMuscles": [
       "abdominals",
       "glutes",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Begin with a bar on a rack at shoulder height. Rack the bar across the rear of your shoulders as you would a power squat, not on top of your shoulders. Keep your back tight, shoulder blades pinched together, and your knees slightly bent. Step back from the rack.",
@@ -7882,7 +7882,7 @@
     "secondaryMuscles": [
       "abdominals",
       "glutes",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Begin with a bar on a rack at about the same height as your stomach. Bend over underneath the bar and rack the bar across the rear of your shoulders as you would a power squat, not on top of your shoulders. At the proper height, you should be near parallel to the floor when bent over. Keep your back tight, shoulder blades pinched together, and your knees slightly bent. Keep your back arched and your cervical spine in proper alignment.",
@@ -8133,7 +8133,7 @@
       "forearms",
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "shoulders",
       "traps"
     ],
@@ -8163,7 +8163,7 @@
       "forearms",
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "shoulders",
       "traps"
     ],
@@ -8194,7 +8194,7 @@
       "calves",
       "forearms",
       "glutes",
-      "lower back",
+      "lower_back",
       "quadriceps",
       "shoulders",
       "traps"
@@ -8226,7 +8226,7 @@
       "calves",
       "forearms",
       "glutes",
-      "lower back",
+      "lower_back",
       "quadriceps",
       "shoulders",
       "traps"
@@ -8256,7 +8256,7 @@
     "secondaryMuscles": [
       "abdominals",
       "glutes",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Begin with a bar on a rack at about the same height as your stomach. Suspend the bar using chains or suspension straps.",
@@ -8501,7 +8501,7 @@
     "mechanic": "isolation",
     "equipment": "exercise ball",
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "calves",
@@ -8526,7 +8526,7 @@
     "mechanic": null,
     "equipment": null,
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "glutes"
@@ -8579,7 +8579,7 @@
     "mechanic": "isolation",
     "equipment": "other",
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "glutes",
@@ -8607,7 +8607,7 @@
     "mechanic": "compound",
     "equipment": "body only",
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "glutes",
@@ -8728,7 +8728,7 @@
     "mechanic": "isolation",
     "equipment": "barbell",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "lats",
@@ -9218,7 +9218,7 @@
     "mechanic": "compound",
     "equipment": null,
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "lats"
@@ -9244,7 +9244,7 @@
     "mechanic": "compound",
     "equipment": "other",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -9276,7 +9276,7 @@
       "chest",
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "quadriceps",
       "traps"
     ],
@@ -9498,7 +9498,7 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "traps"
     ],
     "instructions": [
@@ -9599,7 +9599,7 @@
     "mechanic": "compound",
     "equipment": "other",
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "abdominals",
@@ -9608,7 +9608,7 @@
       "forearms",
       "glutes",
       "hamstrings",
-      "middle back",
+      "middle_back",
       "quadriceps",
       "shoulders",
       "traps"
@@ -9662,7 +9662,7 @@
     "secondaryMuscles": [
       "calves",
       "glutes",
-      "lower back",
+      "lower_back",
       "quadriceps",
       "traps"
     ],
@@ -9714,7 +9714,7 @@
     "secondaryMuscles": [
       "calves",
       "glutes",
-      "lower back",
+      "lower_back",
       "shoulders",
       "traps"
     ],
@@ -9741,7 +9741,7 @@
     ],
     "secondaryMuscles": [
       "glutes",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Hold a kettlebell by the handle in one hand. Stand on one leg, on the same side that you hold the kettlebell.",
@@ -10029,7 +10029,7 @@
       "abdominals",
       "biceps",
       "forearms",
-      "middle back",
+      "middle_back",
       "shoulders",
       "traps",
       "triceps"
@@ -10059,11 +10059,11 @@
     ],
     "secondaryMuscles": [
       "abductors",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Lie down on the floor with your right leg straight. Bend your left leg and lower it across your body, holding the knee down toward the floor with your right hand. (The knee doesn't need to touch the floor if you're tight.)",
-      "Place your left arm comfortably beside you and turn your head to the left. Imagine you have a weight tied to your tailbone. let your tailbone fall back toward the floor as your chest reaches in the opposite direction to stretch your lower back. Switch sides."
+      "Place your left arm comfortably beside you and turn your head to the left. Imagine you have a weight tied to your tailbone. let your tailbone fall back toward the floor as your chest reaches in the opposite direction to stretch your lower_back. Switch sides."
     ],
     "category": "stretching",
     "images": [
@@ -10109,7 +10109,7 @@
     "secondaryMuscles": [],
     "instructions": [
       "Position your body on the vertical leg raise bench so that your forearms are resting on the pads next to the torso and holding on to the handles. Your arms will be bent at a 90 degree angle.",
-      "The torso should be straight with the lower back pressed against the pad of the machine and the legs extended pointing towards the floor. This will be your starting position.",
+      "The torso should be straight with the lower_back pressed against the pad of the machine and the legs extended pointing towards the floor. This will be your starting position.",
       "Now as you breathe out, lift your legs up as you keep them extended. Continue this movement until your legs are roughly parallel to the floor and then hold the contraction for a second. Tip: Do not use any momentum or swinging as you perform this exercise.",
       "Slowly go back to the starting position as you breathe in.",
       "Repeat for the recommended amount of repetitions."
@@ -10260,7 +10260,7 @@
     ],
     "secondaryMuscles": [
       "biceps",
-      "middle back"
+      "middle_back"
     ],
     "instructions": [
       "Select the appropriate weight using a pulley that is above your head. Attach a rope to the cable and kneel a couple of feet away, holding the rope out in front of you with both arms extended. This will be your starting position.",
@@ -10335,7 +10335,7 @@
     ],
     "secondaryMuscles": [
       "biceps",
-      "middle back"
+      "middle_back"
     ],
     "instructions": [
       "Attach a single handle to a high pulley and make your weight selection.",
@@ -10362,7 +10362,7 @@
     "secondaryMuscles": [
       "abdominals",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Set the bar to the proper height in a power rack. Kneel behind the bar; it may be beneficial to put a mat down to pad your knees. Slide under the bar, racking it across the back of your shoulders. Your shoulder blades should be retracted and the bar tight across your back. Unrack the weight.",
@@ -10387,7 +10387,7 @@
     ],
     "secondaryMuscles": [
       "glutes",
-      "lower back",
+      "lower_back",
       "shoulders"
     ],
     "instructions": [
@@ -10797,7 +10797,7 @@
     "mechanic": "compound",
     "equipment": "machine",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "lats"
@@ -10851,7 +10851,7 @@
     ],
     "secondaryMuscles": [
       "biceps",
-      "middle back"
+      "middle_back"
     ],
     "instructions": [
       "Load an appropriate weight onto the pins and adjust the seat height so that the handles are at chest level. Grasp the handles with either a neutral or pronated grip. This will be your starting position.",
@@ -11009,8 +11009,8 @@
       "chest",
       "glutes",
       "hamstrings",
-      "lower back",
-      "middle back",
+      "lower_back",
+      "middle_back",
       "quadriceps",
       "traps",
       "triceps"
@@ -11039,7 +11039,7 @@
     "secondaryMuscles": [
       "biceps",
       "forearms",
-      "middle back"
+      "middle_back"
     ],
     "instructions": [
       "Attach a climbing rope to a high beam or cross member. Below it, ensure that the smith machine bar is locked in place with the safeties and cannot move. Alternatively, a secure box could also be utilized.",
@@ -11136,7 +11136,7 @@
     ],
     "secondaryMuscles": [
       "biceps",
-      "middle back",
+      "middle_back",
       "traps"
     ],
     "instructions": [
@@ -11154,18 +11154,18 @@
     "id": "Low_Pulley_Row_To_Neck"
   },
   {
-    "name": "Lower Back-SMR",
+    "name": "lower_back-SMR",
     "force": "static",
     "level": "beginner",
     "mechanic": null,
     "equipment": "foam roll",
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [],
     "instructions": [
-      "In a seated position, place a foam roll under your lower back. Cross your arms in front of you and protract your shoulders. This will be your starting position.",
-      "Raise your hips off of the floor and lean back, keeping your weight on your lower back. Now shift your weight slightly to one side, keeping your weight off of the spine and on the muscles to the side of it. Roll over your lower back, holding points of tension for 10-30 seconds. Repeat on the other side."
+      "In a seated position, place a foam roll under your lower_back. Cross your arms in front of you and protract your shoulders. This will be your starting position.",
+      "Raise your hips off of the floor and lean back, keeping your weight on your lower_back. Now shift your weight slightly to one side, keeping your weight off of the spine and on the muscles to the side of it. Roll over your lower_back, holding points of tension for 10-30 seconds. Repeat on the other side."
     ],
     "category": "stretching",
     "images": [
@@ -11175,7 +11175,7 @@
     "id": "Lower_Back-SMR"
   },
   {
-    "name": "Lower Back Curl",
+    "name": "lower_back Curl",
     "force": "static",
     "level": "beginner",
     "mechanic": null,
@@ -11186,7 +11186,7 @@
     "secondaryMuscles": [],
     "instructions": [
       "Lie on your stomach with your arms out to your sides. This will be your starting position.",
-      "Using your lower back muscles, extend your spine lifting your chest off of the ground. Do not use your arms to push yourself up. Keep your head up during the movement. Repeat for 10-20 repetitions."
+      "Using your lower_back muscles, extend your spine lifting your chest off of the ground. Do not use your arms to push yourself up. Keep your head up during the movement. Repeat for 10-20 repetitions."
     ],
     "category": "stretching",
     "images": [
@@ -11304,7 +11304,7 @@
     "mechanic": "isolation",
     "equipment": "barbell",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -11315,7 +11315,7 @@
       "Place a cambered bar underneath an exercise bench.",
       "Lie face down on the exercise bench and grab the bar using a palms down (pronated grip) that is wider than shoulder width. This will be your starting position.",
       "As you exhale row the bar up as you keep the elbows close to your body to either your chest, in order to target the upper mid back, or to your stomach if targeting the lats is your goal.",
-      "After a second hold at the top, lower back down to the starting position slowly as you inhale."
+      "After a second hold at the top, lower_back down to the starting position slowly as you inhale."
     ],
     "category": "strength",
     "images": [
@@ -11719,7 +11719,7 @@
     "mechanic": "compound",
     "equipment": "machine",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -11968,13 +11968,13 @@
     "id": "Medicine_Ball_Scoop_Throw"
   },
   {
-    "name": "Middle Back Shrug",
+    "name": "middle_back Shrug",
     "force": "pull",
     "level": "intermediate",
     "mechanic": "isolation",
     "equipment": "dumbbell",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [],
     "instructions": [
@@ -11991,18 +11991,18 @@
     "id": "Middle_Back_Shrug"
   },
   {
-    "name": "Middle Back Stretch",
+    "name": "middle_back Stretch",
     "force": "static",
     "level": "beginner",
     "mechanic": "isolation",
     "equipment": null,
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "abdominals",
       "lats",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Stand so your feet are shoulder width apart and your hands are on your hips.",
@@ -12022,7 +12022,7 @@
     "mechanic": "compound",
     "equipment": "other",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -12125,7 +12125,7 @@
     ],
     "secondaryMuscles": [
       "glutes",
-      "lower back",
+      "lower_back",
       "quadriceps",
       "shoulders",
       "triceps"
@@ -12155,7 +12155,7 @@
       "abdominals",
       "biceps",
       "forearms",
-      "middle back",
+      "middle_back",
       "shoulders",
       "traps",
       "triceps"
@@ -12244,7 +12244,7 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "This exercise is best performed inside a squat rack for safety purposes. To begin, first set the bar on a rack that best matches your height. Once the correct height is chosen and the bar is loaded, step under the bar and place the back of your shoulders (slightly below the neck) across it.",
@@ -12273,7 +12273,7 @@
     "secondaryMuscles": [
       "calves",
       "glutes",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Using the leg pad of a lat pulldown machine or a preacher bench, position yourself so that your ankles are under the pads, knees on the seat, and you are facing away from the machine. You should be upright and maintaining good posture.",
@@ -12347,7 +12347,7 @@
     ],
     "secondaryMuscles": [],
     "instructions": [
-      "Lie flat on the floor with your lower back pressed to the ground. For this exercise, you will need to put one hand beside your head and the other to the side against the floor.",
+      "Lie flat on the floor with your lower_back pressed to the ground. For this exercise, you will need to put one hand beside your head and the other to the side against the floor.",
       "Make sure your feet are elevated and resting on a flat surface.",
       "Now lift the shoulder in which your hand is touching your head.",
       "Simply elevate your shoulder and body upward until you touch your knee. For example, if you have your right hand besides your head, then you want to elevate your body upwards until your right elbow touches your left knee. The same variation can be applied doing the inverse and using your left elbow to touch your right knee.",
@@ -12424,7 +12424,7 @@
     "secondaryMuscles": [],
     "instructions": [
       "Lie on a flat bench or step, and hang one leg and arm over the side.",
-      "Bend the knee and hold the top of the foot. As you do this, be careful not to arch your lower back.",
+      "Bend the knee and hold the top of the foot. As you do this, be careful not to arch your lower_back.",
       "Pull the belly button to the spine to stay in neutral. Press your foot down and into your hand. To add the hip stretch, lift the hip of the leg you're holding up toward the ceiling.",
       "Switch sides."
     ],
@@ -12463,7 +12463,7 @@
     "mechanic": "compound",
     "equipment": "dumbbell",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -12473,7 +12473,7 @@
     "instructions": [
       "Choose a flat bench and place a dumbbell on each side of it.",
       "Place the right leg on top of the end of the bench, bend your torso forward from the waist until your upper body is parallel to the floor, and place your right hand on the other end of the bench for support.",
-      "Use the left hand to pick up the dumbbell on the floor and hold the weight while keeping your lower back straight. The palm of the hand should be facing your torso. This will be your starting position.",
+      "Use the left hand to pick up the dumbbell on the floor and hold the weight while keeping your lower_back straight. The palm of the hand should be facing your torso. This will be your starting position.",
       "Pull the resistance straight up to the side of your chest, keeping your upper arm close to your side and keeping the torso stationary. Breathe out as you perform this step. Tip: Concentrate on squeezing the back muscles once you reach the full contracted position. Also, make sure that the force is performed with the back muscles and not the arms. Finally, the upper torso should remain stationary and only the arms should move. The forearms should do no other work except for holding the dumbbell; therefore do not try to pull the dumbbell up using the forearms.",
       "Lower the resistance straight down to the starting position. Breathe in as you perform this step.",
       "Repeat the movement for the specified amount of repetitions.",
@@ -12574,7 +12574,7 @@
     ],
     "secondaryMuscles": [
       "glutes",
-      "lower back",
+      "lower_back",
       "shoulders",
       "traps"
     ],
@@ -12747,7 +12747,7 @@
     "mechanic": "compound",
     "equipment": "kettlebells",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -12776,7 +12776,7 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "traps",
       "triceps"
     ],
@@ -12859,7 +12859,7 @@
     "secondaryMuscles": [
       "calves",
       "glutes",
-      "lower back",
+      "lower_back",
       "shoulders"
     ],
     "instructions": [],
@@ -12877,7 +12877,7 @@
     "mechanic": "compound",
     "equipment": "barbell",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -12935,7 +12935,7 @@
     "secondaryMuscles": [
       "forearms",
       "glutes",
-      "lower back",
+      "lower_back",
       "quadriceps",
       "shoulders"
     ],
@@ -12993,7 +12993,7 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "traps"
     ],
     "instructions": [
@@ -13091,7 +13091,7 @@
     "mechanic": "compound",
     "equipment": "other",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -13101,7 +13101,7 @@
     "instructions": [
       "For this exercise, start out by placing a towel around a chin up bar.",
       "Grab the chin-up bar with your palm facing you. One hand will be grabbing the chin-up bar and the other will be grabbing the towel.",
-      "Bring your torso back around 30 degrees or so while creating a curvature on your lower back and sticking your chest out. This is your starting position.v",
+      "Bring your torso back around 30 degrees or so while creating a curvature on your lower_back and sticking your chest out. This is your starting position.v",
       "Pull your torso up until the bar touches your upper chest by drawing the shoulders and the upper arms down and back. Exhale as you perform this portion of the movement. Tip: Concentrate on squeezing the back muscles once you reach the full contracted position. The upper torso should remain stationary as it moves through space and only the arms should move. The forearms should do no other work other than hold the bar.",
       "After a second on the contracted position, start to inhale and slowly lower your torso back to the starting position when your arms are fully extended and the lats are fully stretched.",
       "Repeat this motion for the prescribed amount of repetitions.",
@@ -13207,7 +13207,7 @@
     ],
     "secondaryMuscles": [
       "biceps",
-      "middle back"
+      "middle_back"
     ],
     "instructions": [
       "Select an appropriate weight and adjust the knee pad to help keep you down. Grasp the handle with a pronated grip. This will be your starting position.",
@@ -13333,13 +13333,13 @@
     ],
     "secondaryMuscles": [
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Start off by lying on the floor.",
       "Extend one leg straight and pull the other knee to your chest. Hold under the knee joint to protect the kneecap.",
       "Gently tug that knee toward your nose.",
-      "Switch sides. This stretches the buttocks and lower back of the bent leg and the hip flexor of the straight leg."
+      "Switch sides. This stretches the buttocks and lower_back of the bent leg and the hip flexor of the straight leg."
     ],
     "category": "stretching",
     "images": [
@@ -13389,7 +13389,7 @@
     ],
     "secondaryMuscles": [
       "glutes",
-      "lower back",
+      "lower_back",
       "quadriceps",
       "shoulders"
     ],
@@ -13518,7 +13518,7 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "shoulders",
       "triceps"
     ],
@@ -13785,12 +13785,12 @@
     "mechanic": "compound",
     "equipment": null,
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [],
     "instructions": [
       "Lie down with your feet on the floor, heels directly under your knees.",
-      "Lift only your tailbone to the ceiling to stretch your lower back. (Don't lift the entire spine yet.) Pull in your stomach.",
+      "Lift only your tailbone to the ceiling to stretch your lower_back. (Don't lift the entire spine yet.) Pull in your stomach.",
       "To go into a bridge, lift the entire spine except the neck."
     ],
     "category": "stretching",
@@ -13879,7 +13879,7 @@
       "chest",
       "forearms",
       "lats",
-      "middle back",
+      "middle_back",
       "shoulders"
     ],
     "instructions": [
@@ -14128,8 +14128,8 @@
       "calves",
       "forearms",
       "glutes",
-      "lower back",
-      "middle back",
+      "lower_back",
+      "middle_back",
       "quadriceps",
       "shoulders",
       "traps",
@@ -14261,7 +14261,7 @@
     "secondaryMuscles": [
       "calves",
       "glutes",
-      "lower back",
+      "lower_back",
       "quadriceps",
       "shoulders",
       "traps",
@@ -14295,7 +14295,7 @@
       "forearms",
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "shoulders",
       "traps",
       "triceps"
@@ -14327,7 +14327,7 @@
       "adductors",
       "calves",
       "glutes",
-      "lower back",
+      "lower_back",
       "quadriceps",
       "shoulders",
       "traps"
@@ -14482,7 +14482,7 @@
     ],
     "secondaryMuscles": [
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Begin standing a few feet in front of a low pulley with a rope or handle attached. Face away from the machine, straddling the cable, with your feet set wide apart.",
@@ -14506,11 +14506,11 @@
     ],
     "secondaryMuscles": [
       "biceps",
-      "middle back"
+      "middle_back"
     ],
     "instructions": [
       "Grab the pull-up bar with the palms facing forward using the prescribed grip. Note on grips: For a wide grip, your hands need to be spaced out at a distance wider than your shoulder width. For a medium grip, your hands need to be spaced out at a distance equal to your shoulder width and for a close grip at a distance smaller than your shoulder width.",
-      "As you have both arms extended in front of you holding the bar at the chosen grip width, bring your torso back around 30 degrees or so while creating a curvature on your lower back and sticking your chest out. This is your starting position.",
+      "As you have both arms extended in front of you holding the bar at the chosen grip width, bring your torso back around 30 degrees or so while creating a curvature on your lower_back and sticking your chest out. This is your starting position.",
       "Pull your torso up until the bar touches your upper chest by drawing the shoulders and the upper arms down and back. Exhale as you perform this portion of the movement. Tip: Concentrate on squeezing the back muscles once you reach the full contracted position. The upper torso should remain stationary as it moves through space and only the arms should move. The forearms should do no other work other than hold the bar.",
       "After a second on the contracted position, start to inhale and slowly lower your torso back to the starting position when your arms are fully extended and the lats are fully stretched.",
       "Repeat this motion for the prescribed amount of repetitions."
@@ -14763,7 +14763,7 @@
     "mechanic": null,
     "equipment": "exercise ball",
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "shoulders"
@@ -14879,7 +14879,7 @@
     "mechanic": "compound",
     "equipment": "barbell",
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "forearms",
@@ -14907,7 +14907,7 @@
     "mechanic": "compound",
     "equipment": "barbell",
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "forearms",
@@ -15014,7 +15014,7 @@
       "chest",
       "forearms",
       "lats",
-      "middle back",
+      "middle_back",
       "shoulders"
     ],
     "instructions": [
@@ -15046,11 +15046,11 @@
       "forearms",
       "glutes",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Begin in a power rack with a box at the appropriate height behind you. Set up the bands either on band pegs or attached to the top of the rack, ensuring they will be directly above the bar during the squat. Attach the other end to the bar.",
-      "Begin by stepping under the bar and placing it across the back of the shoulders. Squeeze your shoulder blades together and rotate your elbows forward, attempting to bend the bar across your shoulders. Remove the bar from the rack, creating a tight arch in your lower back, and step back into position. Place your feet wider for more emphasis on the back, glutes, adductors, and hamstrings, or closer together for more quad development. Keep your head facing forward.",
+      "Begin by stepping under the bar and placing it across the back of the shoulders. Squeeze your shoulder blades together and rotate your elbows forward, attempting to bend the bar across your shoulders. Remove the bar from the rack, creating a tight arch in your lower_back, and step back into position. Place your feet wider for more emphasis on the back, glutes, adductors, and hamstrings, or closer together for more quad development. Keep your head facing forward.",
       "With your back, shoulders, and core tight, push your knees and butt out and you begin your descent. Sit back with your hips until you are seated on the box. Ideally, your shins should be perpendicular to the ground. Pause when you reach the box, and relax the hip flexors. Never bounce off of a box.",
       "Keeping the weight on your heels and pushing your feet and knees out, drive upward off of the box as you lead the movement with your head. Continue upward, maintaining tightness head to toe. Use care to return the barbell to the rack."
     ],
@@ -15068,7 +15068,7 @@
     "mechanic": "compound",
     "equipment": "barbell",
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "abductors",
@@ -15106,11 +15106,11 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Begin in a power rack with the pins and bar set at the appropriate height. After loading the bar, attach bands to the top of the rack, using either pegs or the frame itself. Attach the other end of the bands to the bar.",
-      "Begin by stepping under the bar and placing it across the back of the shoulders. Squeeze your shoulder blades together and rotate your elbows forward, attempting to bend the bar across your shoulders. Remove the bar from the rack, creating a tight arch in your lower back, and step back into position. Place your feet wide for more emphasis on the back, glutes, adductors, and hamstrings.",
+      "Begin by stepping under the bar and placing it across the back of the shoulders. Squeeze your shoulder blades together and rotate your elbows forward, attempting to bend the bar across your shoulders. Remove the bar from the rack, creating a tight arch in your lower_back, and step back into position. Place your feet wide for more emphasis on the back, glutes, adductors, and hamstrings.",
       "Keep your head facing forward. With your back, shoulders, and core tight, push your knees and butt out and you begin your descent. Sit back with your hips as much as possible. Ideally, your shins should be perpendicular to the ground. Lower bar position necessitates a greater torso lean to keep the bar over the heels. Continue until you break parallel, which is defined as the crease of the hip being in line with the top of the knee.",
       "Keeping the weight on your heels and pushing your feet and knees out, drive upward as you lead the movement with your head. Continue upward, maintaining tightness head to toe, until you have returned to the starting position."
     ],
@@ -15136,7 +15136,7 @@
       "calves",
       "forearms",
       "glutes",
-      "lower back",
+      "lower_back",
       "quadriceps",
       "traps"
     ],
@@ -15312,7 +15312,7 @@
     "mechanic": "compound",
     "equipment": "barbell",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -15467,7 +15467,7 @@
     "mechanic": null,
     "equipment": "foam roll",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "traps"
@@ -15497,7 +15497,7 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "quadriceps",
       "traps"
     ],
@@ -15525,7 +15525,7 @@
       "forearms",
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "traps"
     ],
     "instructions": [
@@ -15629,12 +15629,12 @@
     ],
     "secondaryMuscles": [
       "biceps",
-      "middle back",
+      "middle_back",
       "shoulders"
     ],
     "instructions": [
       "Grab the pull-up bar with the palms facing forward using a wide grip.",
-      "As you have both arms extended in front of you holding the bar at the chosen grip width, bring your torso back around 30 degrees or so while creating a curvature on your lower back and sticking your chest out. This is your starting position.",
+      "As you have both arms extended in front of you holding the bar at the chosen grip width, bring your torso back around 30 degrees or so while creating a curvature on your lower_back and sticking your chest out. This is your starting position.",
       "Pull your torso up until the bar touches your upper chest by drawing the shoulders and the upper arms down and back. Exhale as you perform this portion of the movement. Tip: Concentrate on squeezing the back muscles once you reach the full contracted position. The upper torso should remain stationary as it moves through space and only the arms should move. The forearms should do no other work other than hold the bar.",
       "After a second on the contracted position, start to inhale and slowly lower your torso back to the starting position when your arms are fully extended and the lats are fully stretched.",
       "Now repeat the same movements as described above except this time your torso will remain straight as you go up and the bar will touch the back of the neck instead of the upper chest. Tip: Use the head to lean forward slightly as it will help you properly execute this portion of the exercise.",
@@ -15659,7 +15659,7 @@
     "secondaryMuscles": [
       "calves",
       "glutes",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Put a barbell in front of you on the ground and grab it using a pronated (palms facing down) grip that a little wider than shoulder width. Tip: Depending on the weight used, you may need wrist wraps to perform the exercise and also a raised platform in order to allow for better range of motion.",
@@ -15687,7 +15687,7 @@
     "secondaryMuscles": [
       "forearms",
       "glutes",
-      "lower back",
+      "lower_back",
       "traps"
     ],
     "instructions": [
@@ -15714,7 +15714,7 @@
     "secondaryMuscles": [
       "biceps",
       "forearms",
-      "middle back",
+      "middle_back",
       "shoulders"
     ],
     "instructions": [
@@ -15841,8 +15841,8 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back",
-      "middle back"
+      "lower_back",
+      "middle_back"
     ],
     "instructions": [
       "To begin, seat yourself on the rower. Make sure that your heels are resting comfortably against the base of the foot pedals and that the straps are secured. Select the program that you wish to use, if applicable. Sit up straight and bend forward at the hips.",
@@ -15915,7 +15915,7 @@
       "abdominals"
     ],
     "secondaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Lie down on the floor placing your feet either under something that will not move or by having a partner hold them. Your legs should be bent at the knees.",
@@ -15947,8 +15947,8 @@
       "forearms",
       "glutes",
       "hamstrings",
-      "lower back",
-      "middle back",
+      "lower_back",
+      "middle_back",
       "shoulders",
       "traps"
     ],
@@ -15976,7 +15976,7 @@
     ],
     "secondaryMuscles": [
       "lats",
-      "middle back"
+      "middle_back"
     ],
     "instructions": [
       "Take a pronated grip on a pull-up bar.",
@@ -16222,7 +16222,7 @@
     "mechanic": "compound",
     "equipment": "cable",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -16304,7 +16304,7 @@
     ],
     "secondaryMuscles": [
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Sit up straight on an exercise mat.",
@@ -16572,14 +16572,14 @@
     "mechanic": "compound",
     "equipment": "barbell",
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "glutes"
     ],
     "instructions": [
       "Set up a box in a power rack. The pins should be set at an appropriate height. Begin by stepping under the bar and placing it across the back of the shoulders, not on top of your traps. Squeeze your shoulder blades together and rotate your elbows forward, attempting to bend the bar across your shoulders.",
-      "Remove the bar from the rack, creating a tight arch in your lower back. Keep your head facing forward. With your back, shoulders, and core tight, push your knees and butt out and you begin your descent. Sit back with your hips until you are seated on the box. This will be your starting position.",
+      "Remove the bar from the rack, creating a tight arch in your lower_back. Keep your head facing forward. With your back, shoulders, and core tight, push your knees and butt out and you begin your descent. Sit back with your hips until you are seated on the box. This will be your starting position.",
       "Keeping the bar tight, bend forward at the hips as much as possible. If you set the pins to what would be parallel, you not only have a safety if you fail, but know when to stop.",
       "Pause just above the pins and reverse the motion until your torso it upright."
     ],
@@ -16766,7 +16766,7 @@
     "mechanic": "compound",
     "equipment": "cable",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -16971,7 +16971,7 @@
     ],
     "secondaryMuscles": [
       "biceps",
-      "middle back"
+      "middle_back"
     ],
     "instructions": [
       "Attach a single handle to a low cable.",
@@ -17316,12 +17316,12 @@
     "secondaryMuscles": [
       "biceps",
       "forearms",
-      "middle back",
+      "middle_back",
       "shoulders"
     ],
     "instructions": [
       "Grab the pull-up bar with the palms facing forward using a wide grip.",
-      "As you have both arms extended in front of you holding the bar at a wide grip, bring your torso back around 30 degrees or so while creating a curvature on your lower back and sticking your chest out. This is your starting position.",
+      "As you have both arms extended in front of you holding the bar at a wide grip, bring your torso back around 30 degrees or so while creating a curvature on your lower_back and sticking your chest out. This is your starting position.",
       "Pull your torso up while leaning to the left hand side until the bar almost touches your upper chest by drawing the shoulders and the upper arms down and back. Exhale as you perform this portion of the movement. Tip: Concentrate on squeezing the back muscles once you reach the full contracted position. The upper torso should remain stationary as it moves through space (no swinging) and only the arms should move. The forearms should do no other work other than hold the bar.",
       "After a second of contraction, inhale as you go back to the starting position.",
       "Now, pull your torso up while leaning to the right hand side until the bar almost touches your upper chest by drawing the shoulders and the upper arms down and back. Exhale as you perform this portion of the movement. Tip: Concentrate on squeezing the back muscles once you reach the full contracted position. The upper torso should remain stationary as it moves through space and only the arms should move. The forearms should do no other work other than hold the bar.",
@@ -17833,7 +17833,7 @@
     ],
     "secondaryMuscles": [
       "calves",
-      "middle back",
+      "middle_back",
       "quadriceps"
     ],
     "instructions": [
@@ -17928,7 +17928,7 @@
     "mechanic": "compound",
     "equipment": "other",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -17960,7 +17960,7 @@
       "calves",
       "forearms",
       "lats",
-      "middle back",
+      "middle_back",
       "shoulders"
     ],
     "instructions": [
@@ -18063,7 +18063,7 @@
     "mechanic": "compound",
     "equipment": "machine",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -18174,7 +18174,7 @@
     ],
     "secondaryMuscles": [
       "glutes",
-      "lower back",
+      "lower_back",
       "quadriceps",
       "shoulders",
       "traps"
@@ -18389,7 +18389,7 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "To begin, first set the bar on the height that best matches your height. Once the correct height is chosen and the bar is loaded, step under the bar and place the back of your shoulders (slightly below the neck) across it.",
@@ -18417,7 +18417,7 @@
     ],
     "secondaryMuscles": [
       "glutes",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "To begin, set the bar on the smith machine to a height that is around the middle of your thighs. Once the correct height is chosen and the bar is loaded, grasp the bar using a pronated (palms forward) grip that is shoulder width apart. You may need some wrist wraps if using a significant amount of weight.",
@@ -18444,7 +18444,7 @@
     ],
     "secondaryMuscles": [
       "biceps",
-      "middle back",
+      "middle_back",
       "shoulders"
     ],
     "instructions": [
@@ -18504,7 +18504,7 @@
       "biceps",
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "shoulders",
       "traps",
       "triceps"
@@ -18567,7 +18567,7 @@
       "forearms",
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "quadriceps",
       "traps"
     ],
@@ -18595,7 +18595,7 @@
     "secondaryMuscles": [
       "calves",
       "glutes",
-      "lower back",
+      "lower_back",
       "quadriceps",
       "traps"
     ],
@@ -18650,7 +18650,7 @@
       "forearms",
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "shoulders",
       "traps",
       "triceps"
@@ -18733,7 +18733,7 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "This exercise is best performed inside a squat rack for safety purposes. To begin, first set the bar on a rack that best matches your height. Once the correct height is chosen and the bar is loaded, step under the bar and place the back of your shoulders (slightly below the neck) across it.",
@@ -18835,11 +18835,11 @@
     "mechanic": "isolation",
     "equipment": null,
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "lats",
-      "lower back",
+      "lower_back",
       "neck",
       "traps"
     ],
@@ -18870,7 +18870,7 @@
       "forearms",
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "shoulders",
       "traps"
     ],
@@ -18959,7 +18959,7 @@
       "forearms",
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "quadriceps",
       "shoulders",
       "traps",
@@ -19073,11 +19073,11 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Set up the bands on the sleeves, secured to either band pegs, the rack, or dumbbells so that there is appropriate tension.",
-      "Begin by stepping under the bar and placing it across the back of the shoulders. Squeeze your shoulder blades together and rotate your elbows forward, attempting to bend the bar across your shoulders. Remove the bar from the rack, creating a tight arch in your lower back, and step back into position. Place your feet wide for more emphasis on the back, glutes, adductors, and hamstrings. Keep your head facing forward.",
+      "Begin by stepping under the bar and placing it across the back of the shoulders. Squeeze your shoulder blades together and rotate your elbows forward, attempting to bend the bar across your shoulders. Remove the bar from the rack, creating a tight arch in your lower_back, and step back into position. Place your feet wide for more emphasis on the back, glutes, adductors, and hamstrings. Keep your head facing forward.",
       "With your back, shoulders, and core tight, push your knees and butt out and you begin your descent. Sit back with your hips as much as possible. Ideally, your shins should be perpendicular to the ground. Lower bar position necessitates a greater torso lean to keep the bar over the heels. Continue until you break parallel, which is defined as the crease of the hip being in line with the top of the knee.",
       "Keeping the weight on your heels and pushing your feet and knees out, drive upward as you lead the movement with your head. Continue upward, maintaining tightness head to toe, until you have returned to the starting position."
     ],
@@ -19102,11 +19102,11 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "To set up the chains, begin by looping the leader chain over the sleeves of the bar. The heavy chain should be attached using a snap hook. Adjust the length of the lead chain so that a few links are still on the floor at the top of the movement.",
-      "Begin by stepping under the bar and placing it across the back of the shoulders. Squeeze your shoulder blades together and rotate your elbows forward, attempting to bend the bar across your shoulders. Remove the bar from the rack, creating a tight arch in your lower back, and step back into position. Place your feet wide for more emphasis on the back, glutes, adductors, and hamstrings. Keep your head facing forward.",
+      "Begin by stepping under the bar and placing it across the back of the shoulders. Squeeze your shoulder blades together and rotate your elbows forward, attempting to bend the bar across your shoulders. Remove the bar from the rack, creating a tight arch in your lower_back, and step back into position. Place your feet wide for more emphasis on the back, glutes, adductors, and hamstrings. Keep your head facing forward.",
       "With your back, shoulders, and core tight, push your knees and butt out and you begin your descent. Sit back with your hips as much as possible. Ideally, your shins should be perpendicular to the ground. Lower bar position necessitates a greater torso lean to keep the bar over the heels. Continue until you break parallel, which is defined as the crease of the hip being in line with the top of the knee.",
       "Keeping the weight on your heels and pushing your feet and knees out, drive upward as you lead the movement with your head. Continue upward, maintaining tightness head to toe, until you have returned to the starting position."
     ],
@@ -19163,7 +19163,7 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "To start out, make sure that the exercise band is at an even split between both the left and right side of the body. To do this, use your hands to grab both sides of the band and place both feet in the middle of the band. Your feet should be shoulder width apart from each other.",
@@ -20218,7 +20218,7 @@
     "mechanic": "isolation",
     "equipment": null,
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "glutes"
@@ -20438,7 +20438,7 @@
     ],
     "secondaryMuscles": [
       "glutes",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Grasp a bar using an overhand grip (palms facing down). You may need some wrist wraps if using a significant amount of weight.",
@@ -20465,7 +20465,7 @@
     ],
     "secondaryMuscles": [
       "glutes",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Grasp a couple of dumbbells holding them by your side at arm's length.",
@@ -20488,7 +20488,7 @@
     "mechanic": "compound",
     "equipment": "barbell",
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "glutes",
@@ -20593,7 +20593,7 @@
     "mechanic": "compound",
     "equipment": "barbell",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -20677,8 +20677,8 @@
       "adductors",
       "forearms",
       "glutes",
-      "lower back",
-      "middle back",
+      "lower_back",
+      "middle_back",
       "quadriceps",
       "traps"
     ],
@@ -20708,8 +20708,8 @@
       "adductors",
       "forearms",
       "glutes",
-      "lower back",
-      "middle back",
+      "lower_back",
+      "middle_back",
       "quadriceps",
       "traps"
     ],
@@ -20741,8 +20741,8 @@
       "adductors",
       "forearms",
       "glutes",
-      "lower back",
-      "middle back",
+      "lower_back",
+      "middle_back",
       "quadriceps",
       "traps"
     ],
@@ -20767,7 +20767,7 @@
     "mechanic": "compound",
     "equipment": "body only",
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "glutes",
@@ -20775,7 +20775,7 @@
     ],
     "instructions": [
       "To begin, lie straight and face down on the floor or exercise mat. Your arms should be fully extended in front of you. This is the starting position.",
-      "Simultaneously raise your arms, legs, and chest off of the floor and hold this contraction for 2 seconds. Tip: Squeeze your lower back to get the best results from this exercise. Remember to exhale during this movement. Note: When holding the contracted position, you should look like superman when he is flying.",
+      "Simultaneously raise your arms, legs, and chest off of the floor and hold this contraction for 2 seconds. Tip: Squeeze your lower_back to get the best results from this exercise. Remember to exhale during this movement. Note: When holding the contracted position, you should look like superman when he is flying.",
       "Slowly begin to lower your arms, legs and chest back down to the starting position while inhaling.",
       "Repeat for the recommended amount of repetitions prescribed in your program."
     ],
@@ -20876,7 +20876,7 @@
     ],
     "secondaryMuscles": [
       "chest",
-      "lower back",
+      "lower_back",
       "shoulders"
     ],
     "instructions": [
@@ -20949,7 +20949,7 @@
     "mechanic": "compound",
     "equipment": "other",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -21030,7 +21030,7 @@
     "mechanic": "compound",
     "equipment": "barbell",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -21167,7 +21167,7 @@
       "forearms",
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "shoulders",
       "traps",
       "triceps"
@@ -21198,7 +21198,7 @@
       "To begin, lie down on the floor or an exercise mat with your back pressed against the floor. Your arms should be lying across your sides with the palms facing down.",
       "Your legs should be touching each other. Slowly elevate your legs up in the air until they are almost perpendicular to the floor with a slight bend at the knees. Your feet should be parallel to the floor.",
       "Move your arms so that they are fully extended at a 45 degree angle from the floor. This is the starting position.",
-      "While keeping your lower back pressed against the floor, slowly lift your torso and use your hands to try and touch your toes. Remember to exhale while perform this part of the exercise.",
+      "While keeping your lower_back pressed against the floor, slowly lift your torso and use your hands to try and touch your toes. Remember to exhale while perform this part of the exercise.",
       "Slowly begin to lower your torso and arms back down to the starting position while inhaling. Remember to keep your arms straight out pointing towards your toes.",
       "Repeat for the recommended amount of repetitions."
     ],
@@ -21457,7 +21457,7 @@
       "To begin, lie down on the floor or an exercise mat with your back pressed against the floor. Your arms should be lying across your sides with the palms facing down.",
       "Your legs should be crossed by wrapping one ankle around the other. Slowly elevate your legs up in the air until your thighs are perpendicular to the floor with a slight bend at the knees. Note: Your knees and toes should be parallel to the floor as opposed to the thighs.",
       "Move your arms from the floor and cross them so they are resting on your chest. This is the starting position.",
-      "While keeping your lower back pressed against the floor, slowly lift your torso. Remember to exhale while perform this part of the exercise.",
+      "While keeping your lower_back pressed against the floor, slowly lift your torso. Remember to exhale while perform this part of the exercise.",
       "Slowly begin to lower your torso back down to the starting position while inhaling.",
       "Repeat for the recommended amount of repetitions."
     ],
@@ -21504,7 +21504,7 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back",
+      "lower_back",
       "traps"
     ],
     "instructions": [
@@ -21573,7 +21573,7 @@
     "mechanic": "compound",
     "equipment": "kettlebells",
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
       "biceps",
@@ -21601,13 +21601,13 @@
     ],
     "secondaryMuscles": [
       "biceps",
-      "middle back",
+      "middle_back",
       "shoulders"
     ],
     "instructions": [
       "Sit down on a pull-down machine with a wide bar attached to the top pulley. Adjust the knee pad of the machine to fit your height. These pads will prevent your body from being raised by the resistance attached to the bar.",
       "Grab the pull-down bar with the palms facing your torso (a supinated grip). Make sure that the hands are placed closer than the shoulder width.",
-      "As you have both arms extended in front of you holding the bar at the chosen grip width, bring your torso back around 30 degrees or so while creating a curvature on your lower back and sticking your chest out. This is your starting position.",
+      "As you have both arms extended in front of you holding the bar at the chosen grip width, bring your torso back around 30 degrees or so while creating a curvature on your lower_back and sticking your chest out. This is your starting position.",
       "As you breathe out, pull the bar down until it touches your upper chest by drawing the shoulders and the upper arms down and back. Tip: Concentrate on squeezing the back muscles once you reach the fully contracted position and keep the elbows close to your body. The upper torso should remain stationary as your bring the bar to you and only the arms should move. The forearms should do no other work other than hold the bar.",
       "After a second on the contracted position, while breathing in, slowly bring the bar back to the starting position when your arms are fully extended and the lats are fully stretched.",
       "Repeat this motion for the prescribed amount of repetitions."
@@ -21629,12 +21629,12 @@
       "hamstrings"
     ],
     "secondaryMuscles": [
-      "lower back",
-      "middle back"
+      "lower_back",
+      "middle_back"
     ],
     "instructions": [
       "While seated, bend forward to hug your thighs from underneath with both arms.",
-      "Keep your knees together and your legs extended out as you bring your chest down to your knees. You can also stretch your middle back by pulling your back away from your knees as your hugging them."
+      "Keep your knees together and your legs extended out as you bring your chest down to your knees. You can also stretch your middle_back by pulling your back away from your knees as your hugging them."
     ],
     "category": "stretching",
     "images": [
@@ -21650,10 +21650,10 @@
     "mechanic": null,
     "equipment": null,
     "primaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "secondaryMuscles": [
-      "middle back"
+      "middle_back"
     ],
     "instructions": [
       "Clasp fingers together with your thumbs pointing down, round your shoulders as you reach your hands forward."
@@ -21775,7 +21775,7 @@
     ],
     "secondaryMuscles": [
       "biceps",
-      "middle back",
+      "middle_back",
       "shoulders"
     ],
     "instructions": [
@@ -21804,7 +21804,7 @@
     ],
     "secondaryMuscles": [
       "biceps",
-      "middle back",
+      "middle_back",
       "shoulders"
     ],
     "instructions": [
@@ -21880,17 +21880,17 @@
     "mechanic": "compound",
     "equipment": "exercise ball",
     "primaryMuscles": [
-      "lower back"
+      "lower_back"
     ],
     "secondaryMuscles": [
       "glutes",
       "hamstrings",
-      "middle back"
+      "middle_back"
     ],
     "instructions": [
       "To begin, lie down on an exercise ball with your torso pressing against the ball and parallel to the floor. The ball of your feet should be pressed against the floor to help keep you balanced. Place a weighted plate under your chin or behind your neck. This is the starting position.",
-      "Slowly raise your torso up by bending at the waist and lower back. Remember to exhale during this movement.",
-      "Hold the contraction on your lower back for a second and lower your torso back down to the starting position while inhaling.",
+      "Slowly raise your torso up by bending at the waist and lower_back. Remember to exhale during this movement.",
+      "Hold the contraction on your lower_back for a second and lower your torso back down to the starting position while inhaling.",
       "Repeat for the recommended amount of repetitions prescribed in your program."
     ],
     "category": "strength",
@@ -21966,7 +21966,7 @@
     "instructions": [
       "Lie flat on your back with your feet flat on the ground or resting on a bench with your knees bent at a 90 degree angle.",
       "Hold a weight to your chest, or you may hold it extended above your torso. This will be your starting position.",
-      "Now, exhale and slowly begin to roll your shoulders off the floor. Your shoulders should come up off the floor about 4 inches while your lower back remains on the floor.",
+      "Now, exhale and slowly begin to roll your shoulders off the floor. Your shoulders should come up off the floor about 4 inches while your lower_back remains on the floor.",
       "At the top of the movement, flex your abdominals and hold for a brief pause.",
       "Then inhale and slowly lower yourself back down to the starting position."
     ],
@@ -21990,7 +21990,7 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Position a lightly loaded barbell across the back of your shoulders. You could also use a weighted vest, sandbag, or other type of resistance for this exercise.",
@@ -22016,11 +22016,11 @@
     ],
     "secondaryMuscles": [
       "biceps",
-      "middle back"
+      "middle_back"
     ],
     "instructions": [
       "Attach a weight to a dip belt and secure it around your waist. Grab the pull-up bar with the palms of your hands facing forward. For a medium grip, your hands should be spaced at shoulder width. Both arms should be extended in front of you holding the bar at the chosen grip.",
-      "You'll want to bring your torso back about 30 degrees while creating a curvature in your lower back and sticking your chest out. This will be your starting position.",
+      "You'll want to bring your torso back about 30 degrees while creating a curvature in your lower_back and sticking your chest out. This will be your starting position.",
       "Now, exhale and pull your torso up until your head is above your hands. Concentrate on squeezing yourshoulder blades back and down as you reach the top contracted position.",
       "After a brief moment at the top contracted position, inhale and slowly lower your torso back to the starting position with your arms extended and your lats fully stretched."
     ],
@@ -22200,13 +22200,13 @@
     ],
     "secondaryMuscles": [
       "biceps",
-      "middle back",
+      "middle_back",
       "shoulders"
     ],
     "instructions": [
       "Sit down on a pull-down machine with a wide bar attached to the top pulley. Make sure that you adjust the knee pad of the machine to fit your height. These pads will prevent your body from being raised by the resistance attached to the bar.",
       "Grab the bar with the palms facing forward using the prescribed grip. Note on grips: For a wide grip, your hands need to be spaced out at a distance wider than shoulder width. For a medium grip, your hands need to be spaced out at a distance equal to your shoulder width and for a close grip at a distance smaller than your shoulder width.",
-      "As you have both arms extended in front of you holding the bar at the chosen grip width, bring your torso back around 30 degrees or so while creating a curvature on your lower back and sticking your chest out. This is your starting position.",
+      "As you have both arms extended in front of you holding the bar at the chosen grip width, bring your torso back around 30 degrees or so while creating a curvature on your lower_back and sticking your chest out. This is your starting position.",
       "As you breathe out, bring the bar down until it touches your upper chest by drawing the shoulders and the upper arms down and back. Tip: Concentrate on squeezing the back muscles once you reach the full contracted position. The upper torso should remain stationary and only the arms should move. The forearms should do no other work except for holding the bar; therefore do not try to pull down the bar using the forearms.",
       "After a second at the contracted position squeezing your shoulder blades together, slowly raise the bar back to the starting position when your arms are fully extended and the lats are fully stretched. Inhale during this portion of the movement.",
       "Repeat this motion for the prescribed amount of repetitions."
@@ -22229,7 +22229,7 @@
     ],
     "secondaryMuscles": [
       "biceps",
-      "middle back",
+      "middle_back",
       "shoulders"
     ],
     "instructions": [
@@ -22258,7 +22258,7 @@
     ],
     "secondaryMuscles": [
       "biceps",
-      "middle back",
+      "middle_back",
       "shoulders"
     ],
     "instructions": [
@@ -22312,7 +22312,7 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "This exercise is best performed inside a squat rack for safety purposes. To begin, first set the bar on a rack that best matches your height. Once the correct height is chosen and the bar is loaded, step under the bar and place the back of your shoulders (slightly below the neck) across it.",
@@ -22341,7 +22341,7 @@
     "secondaryMuscles": [
       "adductors",
       "glutes",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Begin with a barbell loaded on the floor. Adopt a wide stance, and then bend at the hips to grab the bar. Your hips should be as far back as possible, and your legs nearly straight. Keep your back straight, and your head and chest up. This will be your starting position.",
@@ -22389,7 +22389,7 @@
     "secondaryMuscles": [
       "glutes",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "Lie on your back with your arms extended out to the sides and your legs straight. This will be your starting position.",
@@ -22515,7 +22515,7 @@
       "calves",
       "glutes",
       "hamstrings",
-      "lower back"
+      "lower_back"
     ],
     "instructions": [
       "The yoke is usually done with a yoke apparatus, but is sometimes seen with refrigerators or other heavy objects.",

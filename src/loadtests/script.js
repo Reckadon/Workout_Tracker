@@ -1,8 +1,9 @@
 import http from "k6/http";
 import {check} from "k6";
 import { SharedArray } from "k6/data";
+import { textSummary } from 'https://jslib.k6.io/k6-summary/0.0.1/index.js';
 
-const token = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyb21pdCIsImlhdCI6MTc1MTk1ODg0MiwiZXhwIjoxNzUxOTYyNDQyfQ.PfWQy-TKwgNcI5JJsbwk3dD4dt2sd0xfb21AlpgdgfM";
+const token = "";
 export const options = {
 	stages: [
         { duration: "30s", target: 20 }, // Ramp up to 10 users over 30 seconds
@@ -12,7 +13,7 @@ export const options = {
 };
 
 const muscles = new SharedArray('muscles', function () {
-	return ['', 'abdominals', 'adductors', 'biceps', 'calves', 'chest', 'forearms', 'glutes', 'hamstrings', 'lats', 'lower back', 'middle back', 'neck', 'quadriceps', 'shoulders', 'traps', 'triceps']
+	return ['', 'abdominals', 'adductors', 'biceps', 'calves', 'chest', 'forearms', 'glutes', 'hamstrings', 'lats', 'lower_back', 'middle_back', 'neck', 'quadriceps', 'shoulders', 'traps', 'triceps']
 });
 
 export default function () {
@@ -24,4 +25,11 @@ export default function () {
 	const randomMuscle = muscles[Math.floor(Math.random() * muscles.length)];
 	let res = http.get(`http://localhost:8080/api/exercises?primaryMuscle=${randomMuscle}`, options);
 	check(res, { "status is 200": res => res.status === 200 });
+}
+
+export function handleSummary(data) {
+	return {
+		'stdout': textSummary(data, { indent: ' ', enableColors: true }),
+		"summary_nocache_2.json": JSON.stringify(data)
+	};
 }

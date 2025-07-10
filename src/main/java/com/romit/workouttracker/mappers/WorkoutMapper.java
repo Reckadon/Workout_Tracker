@@ -26,6 +26,7 @@ public class WorkoutMapper {
                     WorkoutExercise ex = new WorkoutExercise();
                     ex.setExerciseId(exDto.exerciseId());
                     ex.setSets(exDto.sets());
+                    ex.setReps(exDto.reps());
                     ex.setWorkout(workout); // Important!
                     return ex;
                 })
@@ -40,7 +41,7 @@ public class WorkoutMapper {
                 workout.getId(),
                 workout.getWorkoutDateTime(),
                 workout.getExercises().stream()
-                        .map(ex -> new WorkoutExerciseDTO(ex.getId(), ex.getExerciseId(), ex.getSets()))
+                        .map(ex -> new WorkoutExerciseDTO(ex.getId(), ex.getExerciseId(), ex.getSets(), ex.getReps()))
                         .toList()
         );
     }

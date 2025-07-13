@@ -25,8 +25,8 @@ public class ApiController {
     }
 
     @GetMapping("/exercises")
-    public List<ExerciseSlim> exercises(@RequestParam(required = false) String primaryMuscle) {
-        return exercisesService.getExercises(primaryMuscle);
+    public List<ExerciseSlim> exercises(@RequestParam(required = false) String search) {
+        return exercisesService.getExercises(search);
     }
 
     @GetMapping("/workouts")

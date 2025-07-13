@@ -3,23 +3,28 @@ package com.romit.workouttracker.services;
 import com.romit.workouttracker.entities.Users;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
+import javax.crypto.spec.SecretKeySpec;
 import java.security.NoSuchAlgorithmException;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 @Service
 public class JWTService {
     private final SecretKey secretKey;
 
-    public JWTService() throws NoSuchAlgorithmException {
-        KeyGenerator keyGen = KeyGenerator.getInstance("HmacSHA256");
-        secretKey = keyGen.generateKey();
+    public JWTService(@Value("${jwt.secret.key}") String key) throws NoSuchAlgorithmException {
+        if (key == null || key.isEmpty()) {
+            System.err.println("No JWT secret key provided, generating a secure random key.");
+            KeyGenerator keyGen = KeyGenerator.getInstance("HmacSHA256");
+            this.secretKey = keyGen.generateKey();
+            return;
+        }
+        this.secretKey = new SecretKeySpec(key.getBytes(), "HmacSHA256");
     }
 
     public String generateToken(Users user) {

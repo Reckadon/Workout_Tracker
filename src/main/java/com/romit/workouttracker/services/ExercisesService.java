@@ -15,10 +15,10 @@ public class ExercisesService {
         this.exerciseRepository = exerciseRepository;
     }
 
-    @Cacheable(value = "exercisesList", key = "#primaryMuscle == null ? 'ALL' : #primaryMuscle")
-    public List<ExerciseSlim> getExercises(String primaryMuscle) {
-        if (primaryMuscle != null && !primaryMuscle.isEmpty()) {
-            return exerciseRepository.findExerciseByPrimaryMusclesContains(primaryMuscle);
+    @Cacheable(value = "exercisesList", key = "#search == null ? 'ALL' : #search")
+    public List<ExerciseSlim> getExercises(String search) {
+        if (search != null && !search.isEmpty()) {
+            return exerciseRepository.findExerciseByNameContainsIgnoreCase(search);
         }
         return exerciseRepository.findAllProjectedBy();
     }

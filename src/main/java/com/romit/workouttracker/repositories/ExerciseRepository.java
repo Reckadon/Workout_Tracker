@@ -9,10 +9,11 @@ import java.util.List;
 
 public interface ExerciseRepository extends JpaRepository<Exercise, String> {
 
-
-    List<ExerciseSlim> findExerciseByPrimaryMusclesContains(String primaryMuscle);
+//    List<ExerciseSlim> findExerciseByPrimaryMusclesContains(String primaryMuscle);
 
     List<ExerciseSlim> findAllProjectedBy();
 
     List<ExerciseSlim> findExerciseByNameContainsIgnoreCase(String search);
+
+    ExerciseSlim findExerciseById(String id);
 }

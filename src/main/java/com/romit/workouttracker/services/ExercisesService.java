@@ -22,4 +22,8 @@ public class ExercisesService {
         }
         return exerciseRepository.findAllProjectedBy();
     }
+
+    public ExerciseSlim getExerciseById(String id) {
+        return exerciseRepository.findExerciseById(id);
+    }
 }

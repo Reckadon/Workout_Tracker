@@ -5,6 +5,7 @@ import com.romit.workouttracker.DTOs.WorkoutExerciseDTO;
 import com.romit.workouttracker.entities.Users;
 import com.romit.workouttracker.entities.Workout;
 import com.romit.workouttracker.entities.WorkoutExercise;
+import com.romit.workouttracker.services.ExercisesService;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -15,6 +16,11 @@ import java.util.List;
 * For example, it can convert entities to DTOs or vice versa.
 */
 public class WorkoutMapper {
+    private final ExercisesService exercisesService;
+
+    public WorkoutMapper(ExercisesService exercisesService) {
+        this.exercisesService = exercisesService;
+    }
 
     public Workout toEntity(WorkoutDTO dto, Users user) {
         Workout workout = new Workout();
@@ -27,6 +33,7 @@ public class WorkoutMapper {
                     ex.setExerciseId(exDto.exerciseId());
                     ex.setSets(exDto.sets());
                     ex.setReps(exDto.reps());
+                    ex.setWeight(exDto.weight());
                     ex.setWorkout(workout); // Important!
                     return ex;
                 })
@@ -41,7 +48,7 @@ public class WorkoutMapper {
                 workout.getId(),
                 workout.getWorkoutDateTime(),
                 workout.getExercises().stream()
-                        .map(ex -> new WorkoutExerciseDTO(ex.getId(), ex.getExerciseId(), ex.getSets(), ex.getReps()))
+                        .map(ex -> new WorkoutExerciseDTO(ex.getId(), exercisesService.getExerciseById(ex.getExerciseId()).getName(), ex.getSets(), ex.getReps(), ex.getWeight()))
                         .toList()
         );
     }

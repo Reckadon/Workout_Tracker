@@ -13,6 +13,7 @@ public class WorkoutExercise {
     private String exerciseId;
     private Integer sets;
     private Integer reps;
+    private Float weight;
 
     //    Relationships
     @ManyToOne(fetch = FetchType.LAZY)

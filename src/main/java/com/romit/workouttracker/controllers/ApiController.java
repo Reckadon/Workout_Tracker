@@ -1,6 +1,7 @@
 package com.romit.workouttracker.controllers;
 
 import com.romit.workouttracker.DTOs.WorkoutDTO;
+import com.romit.workouttracker.clients.PythonServiceClient;
 import com.romit.workouttracker.projections.ExerciseSlim;
 import com.romit.workouttracker.services.ExercisesService;
 import com.romit.workouttracker.services.JWTService;
@@ -17,11 +18,13 @@ public class ApiController {
     private final ExercisesService exercisesService;
     private final JWTService jwt;
     private final WorkoutService workoutService;
+    private final PythonServiceClient pythonServiceClient;
 
-    public ApiController(ExercisesService exercisesService, JWTService jwt, WorkoutService workoutService) {
+    public ApiController(ExercisesService exercisesService, JWTService jwt, WorkoutService workoutService, PythonServiceClient pythonServiceClient) {
         this.exercisesService = exercisesService;
         this.jwt = jwt;
         this.workoutService = workoutService;
+        this.pythonServiceClient = pythonServiceClient;
     }
 
     @GetMapping("/exercises")
@@ -43,5 +46,12 @@ public class ApiController {
         String username = jwt.extractUsername(token);
         workoutService.saveWorkout(username, dto);
         return ResponseEntity.ok("logged");
+    }
+
+    @GetMapping("/workout/analysis")
+    public String getWorkoutLog(@RequestHeader("Authorization") String auth)  {
+        String token = auth.substring(7);
+        String username = jwt.extractUsername(token);
+        return pythonServiceClient.callPastWeekAnalysis(workoutService.getPastWeekWorkouts(username));
     }
 }

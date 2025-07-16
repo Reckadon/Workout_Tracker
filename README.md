@@ -1,6 +1,6 @@
 # 🏋️ Workout Tracker – Full Stack Fitness Progression App
 
-A full-stack Java + React application to log and visualize workout sessions, track progress over time, and get progress insights.
+A full-stack Java (Spring Boot) + FastAPI + React.ts application to log and visualize workout sessions, track progress over time, and get progress insights.
 
 ---
 

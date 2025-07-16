@@ -30,7 +30,7 @@ public class WorkoutMapper {
         List<WorkoutExercise> exercises = dto.exercises().stream()
                 .map(exDto -> {
                     WorkoutExercise ex = new WorkoutExercise();
-                    ex.setExerciseId(exDto.exerciseId());
+                    ex.setExerciseId(exDto.exerciseName());
                     ex.setSets(exDto.sets());
                     ex.setReps(exDto.reps());
                     ex.setWeight(exDto.weight());

@@ -1,5 +1,6 @@
 package com.romit.workouttracker.mappers;
 
+import com.romit.workouttracker.DTOs.LogWorkoutRequest;
 import com.romit.workouttracker.DTOs.WorkoutDTO;
 import com.romit.workouttracker.DTOs.WorkoutExerciseDTO;
 import com.romit.workouttracker.entities.Users;
@@ -22,7 +23,7 @@ public class WorkoutMapper {
         this.exercisesService = exercisesService;
     }
 
-    public Workout toEntity(WorkoutDTO dto, Users user) {
+    public Workout toEntity(LogWorkoutRequest dto, Users user) {
         Workout workout = new Workout();
         workout.setWorkoutDateTime(dto.workoutDateTime());
         workout.setUser(user);
@@ -30,7 +31,7 @@ public class WorkoutMapper {
         List<WorkoutExercise> exercises = dto.exercises().stream()
                 .map(exDto -> {
                     WorkoutExercise ex = new WorkoutExercise();
-                    ex.setExerciseId(exDto.exerciseName());
+                    ex.setExerciseId(exDto.exerciseId());
                     ex.setSets(exDto.sets());
                     ex.setReps(exDto.reps());
                     ex.setWeight(exDto.weight());

@@ -1,5 +1,6 @@
 package com.romit.workouttracker.services;
 
+import com.romit.workouttracker.DTOs.LogWorkoutRequest;
 import com.romit.workouttracker.DTOs.WorkoutDTO;
 import com.romit.workouttracker.entities.Users;
 import com.romit.workouttracker.mappers.WorkoutMapper;
@@ -22,7 +23,7 @@ public class WorkoutService {
         this.workoutMapper = workoutMapper;
     }
 
-    public void saveWorkout(String username, WorkoutDTO dto) {
+    public void saveWorkout(String username, LogWorkoutRequest dto) {
         Users user = usersRepo.findByUsername(username);
         workoutRepo.save(workoutMapper.toEntity(dto, user));
     }

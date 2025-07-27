@@ -1,5 +1,6 @@
 package com.romit.workouttracker.controllers;
 
+import com.romit.workouttracker.DTOs.LogWorkoutRequest;
 import com.romit.workouttracker.DTOs.WorkoutDTO;
 import com.romit.workouttracker.clients.PythonServiceClient;
 import com.romit.workouttracker.projections.ExerciseSlim;
@@ -40,7 +41,7 @@ public class ApiController {
     }
 
     @PostMapping("/workout/log")
-    public ResponseEntity<?> log(@RequestBody WorkoutDTO dto,
+    public ResponseEntity<?> log(@RequestBody LogWorkoutRequest dto,
                                  @RequestHeader("Authorization") String auth) {
         String token = auth.substring(7);
         String username = jwt.extractUsername(token);

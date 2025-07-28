@@ -9,7 +9,6 @@ class AnalysisService:
 
     def set_data(self, data: list[Workout]):
         self.data = data
-        print(data)
 
 
     def get_weekly_volume_heatmap(self):

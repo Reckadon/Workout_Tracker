@@ -6,6 +6,7 @@ import com.romit.workouttracker.DTOs.WorkoutExerciseDTO;
 import com.romit.workouttracker.entities.Users;
 import com.romit.workouttracker.entities.Workout;
 import com.romit.workouttracker.entities.WorkoutExercise;
+import com.romit.workouttracker.projections.ExerciseSlim;
 import com.romit.workouttracker.services.ExercisesService;
 import org.springframework.stereotype.Component;
 
@@ -49,7 +50,10 @@ public class WorkoutMapper {
                 workout.getId(),
                 workout.getWorkoutDateTime(),
                 workout.getExercises().stream()
-                        .map(ex -> new WorkoutExerciseDTO(ex.getId(), exercisesService.getExerciseById(ex.getExerciseId()).getName(), ex.getSets(), ex.getReps(), ex.getWeight()))
+                        .map(ex -> {
+                            ExerciseSlim exerciseData = exercisesService.getExerciseById(ex.getExerciseId());
+                            return new WorkoutExerciseDTO(exerciseData.getName(), exerciseData.getPrimaryMuscles(), ex.getSets(), ex.getReps(), ex.getWeight());
+                        })
                         .toList()
         );
     }

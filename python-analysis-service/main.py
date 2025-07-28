@@ -14,6 +14,7 @@ analysisService = AnalysisService()
 
 @app.post("/api/analysis/pastWeekData")
 async def analyse_pastweek_data(pastWeekData: list[Workout]):
-    analysisService.analyze_data(pastWeekData)
+    analysisService.set_data(pastWeekData)
+    analysisService.analyze_data()
     return analysisService.get_analysis_results()
 

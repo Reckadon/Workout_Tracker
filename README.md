@@ -27,7 +27,8 @@ A full-stack Java (Spring Boot) + FastAPI + React.ts application to log and visu
     - Greeting for logged-in user
     - Workout history display (linked to user)
     - Add new workout form
-    - Past Week Data Analysis 
+    - Past Week Data Analysis Component with Day-wise and Muscle-wise distributions
+![UI](./pics/ui.png)
 
 ### Performance Benchmarking
 - Integrated **k6** scripts for load testing API endpoints

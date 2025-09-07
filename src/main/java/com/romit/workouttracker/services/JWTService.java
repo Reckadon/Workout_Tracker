@@ -17,7 +17,7 @@ import java.util.*;
 public class JWTService {
     private final SecretKey secretKey;
 
-    public JWTService(@Value("${jwt.secret.key}") String key) throws NoSuchAlgorithmException {
+    public JWTService(@Value("${JWT_SECRET_KEY}") String key) throws NoSuchAlgorithmException {
         if (key == null || key.isEmpty()) {
             System.err.println("No JWT secret key provided, generating a secure random key.");
             KeyGenerator keyGen = KeyGenerator.getInstance("HmacSHA256");

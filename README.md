@@ -16,13 +16,19 @@ A full-stack Java (Spring Boot) + FastAPI + React.ts application to log and visu
 - **Caffeine caching** for improved performance (65% throughput gain on GET `/api/exercises`)
 - Clean RESTful architecture with DTO projection to limit unnecessary data transfer
 
+#### Backend (Python Data Analysis Service)
+- FastAPI based web service for day-wise and muscle-wise volume distribution.
+- Communicates via a REST API with the Spring application.
+
 ### Frontend (React + TypeScript + Vite)
 - Authentication system with login/register pages
 - JWT token storage in `localStorage` and context-based auth state
 - Dashboard:
     - Greeting for logged-in user
     - Workout history display (linked to user)
-    - Add new workout form 
+    - Add new workout form
+    - Past Week Data Analysis Component with Day-wise and Muscle-wise distributions
+![UI](./pics/ui.png)
 
 ### Performance Benchmarking
 - Integrated **k6** scripts for load testing API endpoints
@@ -32,8 +38,9 @@ A full-stack Java (Spring Boot) + FastAPI + React.ts application to log and visu
 
 ## 🚧 Ongoing Development
 
-- **User dashboard analytics** (reps/week, most worked muscles, progress curve)
-- Integration with local **Python microservice (gRPC)** for ML-based insights
+- Some kind of progress curve on the user's workout data
+- Upgrading the local **Python microservice from REST to (gRPC)**
+- Benchmarking REST vs gRPC
 
 ---
 
@@ -41,7 +48,7 @@ A full-stack Java (Spring Boot) + FastAPI + React.ts application to log and visu
 
 | Layer     | Tech                       |
 |-----------|----------------------------|
-| Backend   | Spring Boot, JPA (Hibernate), PostgreSQL, Caffeine |
+| Backend   | Spring Boot, JPA (Hibernate), PostgreSQL, Caffeine, FastAPI |
 | Frontend  | React, Vite, TypeScript, Axios |
 | Auth      | JWT (HMAC-SHA256), Spring Security |
 | Testing   | Postman, k6 |

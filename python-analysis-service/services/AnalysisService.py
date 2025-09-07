@@ -11,7 +11,7 @@ class AnalysisService:
         self.data = data
 
 
-    def get_weekly_volume_heatmap(self):
+    def __get_weekly_volume_heatmap(self):
         heatmap = [0] * 7
         if not self.data:
             return heatmap
@@ -26,7 +26,7 @@ class AnalysisService:
         return heatmap
     
     
-    def get_muscle_wise_volume(self):
+    def __get_muscle_wise_volume(self):
         muscle_volume = defaultdict(int)
         if not self.data:
             return muscle_volume
@@ -41,7 +41,7 @@ class AnalysisService:
 
 
     def analyze_data(self):
-        self.results = {"status": "success", "results": {"count": len(self.data), 'seven_day_volume_heatmap': self.get_weekly_volume_heatmap(), 'muscle_wise_volume': self.get_muscle_wise_volume()}}
+        self.results = {"status": "success", "results": {"count": len(self.data), 'seven_day_volume_heatmap': self.__get_weekly_volume_heatmap(), 'muscle_wise_volume': self.__get_muscle_wise_volume()}}
 
 
     def get_analysis_results(self):

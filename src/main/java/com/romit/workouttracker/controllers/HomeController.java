@@ -3,6 +3,7 @@ package com.romit.workouttracker.controllers;
 import com.romit.workouttracker.entities.Users;
 import com.romit.workouttracker.services.JWTService;
 import com.romit.workouttracker.services.UsersService;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 
@@ -27,11 +28,17 @@ public class HomeController {
     }
 
     @PostMapping("/login")
-    public String login(@RequestBody Users user) {
-        System.out.println("Attempting login for user: " + user.getUsername() + " with password: " + user.getPassword());
-        if (usersService.isUsernameAvailable(user.getUsername())) {
-            return "Login failed: Username not found.";
+    public ResponseEntity<?> login(@RequestBody Users user) {
+        System.out.println("Login attempt for user: " + user.getUsername() + " with password: " + user.getPassword());
+        if (usersService.isUsernameAvailable(user.getUsername())) {   // if username is available, it means user does not exist
+            System.out.println("Username not found: " + user.getUsername());
+            return ResponseEntity.notFound().build();
         }
-        return usersService.verifyUser(user) ? jwtService.generateToken(user) : "Login failed: Incorrect password.";
+
+        if (usersService.verifyUser(user)) {
+            String token = jwtService.generateToken(user);
+            return ResponseEntity.ok(token);
+        }
+        return null;
     }
 }

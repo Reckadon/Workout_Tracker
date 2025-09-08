@@ -88,6 +88,11 @@ A full-stack Java (Spring Boot) + FastAPI + React.ts application to log and visu
    ```bash
     ./mvnw spring-boot:run
     ```
+   
+---
+### Debugging
+1. To fix: `Caused by: org.postgresql.util.PSQLException: FATAL: invalid value for parameter "TimeZone": "Asia/Calcutta"`  
+    Add `-Duser.timezone=Asia/Kolkata` to your VM options in your IDE or run command.
 ---
 ## 🙌 Contributions
 Open to feature ideas, performance tweaks, and frontend improvements!

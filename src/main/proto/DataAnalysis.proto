@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package com.romit.workouttracker;
+
+option java_multiple_files = true;
+option java_package = "com.romit.workouttracker.proto";
+option java_outer_classname = "DataAnalysisProto";
+
+service DataAnalysisService {
+  rpc AnalyzeData (WorkoutData) returns (AnalysisResult);
+}
+message WorkoutData {
+  int32 workout_id = 1;
+  string date = 2;
+  repeated WorkoutExercise exercises = 3;
+}
+message WorkoutExercise {
+  string name = 2;
+  string primary_muscle_group = 3;
+  int32 sets = 4;
+  int32 reps = 5;
+  float weight = 6;
+}
+message AnalysisResult {
+  string status = 1;
+  string results = 2;
+}

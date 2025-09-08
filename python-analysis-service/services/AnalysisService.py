@@ -45,4 +45,5 @@ class AnalysisService:
 
 
     def get_analysis_results(self):
-        return self.results if self.results else {"status": "no results", "message": "No analysis results available"}
+        return {"status": "success", "results": len(self.data)}
+        # return self.results if self.results else {"status": "no results", "message": "No analysis results available"}

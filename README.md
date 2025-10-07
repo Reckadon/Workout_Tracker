@@ -1,6 +1,6 @@
 # 🏋️ Workout Tracker – Full Stack Fitness Progression App
 
-A full-stack Java (Spring Boot) + FastAPI + React.ts application to log and visualize workout sessions, track progress over time, and get progress insights.
+A full-stack Java (Spring Boot) + gRPC + Python + React.ts application to log and visualize workout sessions, track progress over time, and get progress insights.
 
 ---
 
@@ -17,8 +17,8 @@ A full-stack Java (Spring Boot) + FastAPI + React.ts application to log and visu
 - Clean RESTful architecture with DTO projection to limit unnecessary data transfer
 
 #### Backend (Python Data Analysis Service)
-- FastAPI based web service for day-wise and muscle-wise volume distribution.
-- Communicates via a REST API with the Spring application.
+- Web **microservice** for day-wise and muscle-wise volume distribution calculation.
+- Communicates via a **gRPC** connection with the Spring application.
 
 ### Frontend (React + TypeScript + Vite)
 - Authentication system with login/register pages
@@ -39,20 +39,20 @@ A full-stack Java (Spring Boot) + FastAPI + React.ts application to log and visu
 ## 🚧 Ongoing Development
 
 - Some kind of progress curve on the user's workout data
-- Upgrading the local **Python microservice from REST to (gRPC)**
 - Benchmarking REST vs gRPC
+- Dockerizing the entire stack for easy deployment
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer     | Tech                       |
-|-----------|----------------------------|
-| Backend   | Spring Boot, JPA (Hibernate), PostgreSQL, Caffeine, FastAPI |
-| Frontend  | React, Vite, TypeScript, Axios |
-| Auth      | JWT (HMAC-SHA256), Spring Security |
-| Testing   | Postman, k6 |
-| Deployment (Planned) | Docker Compose (Spring + PostgreSQL + optional Python service) |
+| Layer     | Tech                                                              |
+|-----------|-------------------------------------------------------------------|
+| Backend   | Spring Boot, JPA (Hibernate), PostgreSQL, Caffeine, FastAPI, gRPC |
+| Frontend  | React, Vite, TypeScript, Axios                                    |
+| Auth      | JWT (HMAC-SHA256), Spring Security                                |
+| Testing   | Postman, k6                                                       |
+| Deployment (Planned) | Docker Compose (Spring + PostgreSQL + optional Python service)    |
 
 ---
 
@@ -70,7 +70,7 @@ A full-stack Java (Spring Boot) + FastAPI + React.ts application to log and visu
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/workout-tracker.git
+   git clone https://github.com/reckadon/workout-tracker.git
    cd workout-tracker/backend
    ```
 2. Run PostgreSQL in Docker (if not installed locally):
@@ -88,6 +88,7 @@ A full-stack Java (Spring Boot) + FastAPI + React.ts application to log and visu
    ```bash
     ./mvnw spring-boot:run
     ```
+   or by using Intellij/Eclipse run configurations. (make sure to set VM options if needed, and generate gRPC classes using `./mvnw clean compile`)
    
 ---
 ### Debugging

@@ -1,3 +1,4 @@
+import analysis_pb2 as analysis_pb2
 from models.Workout import Workout
 from datetime import datetime
 from collections import defaultdict
@@ -11,7 +12,7 @@ class AnalysisService:
         self.data = data
 
 
-    def __get_weekly_volume_heatmap(self):
+    def __get_weekly_volume_heatmap(self) -> list[float]:
         heatmap = [0] * 7
         if not self.data:
             return heatmap
@@ -26,7 +27,7 @@ class AnalysisService:
         return heatmap
     
     
-    def __get_muscle_wise_volume(self):
+    def __get_muscle_wise_volume(self) -> dict[str, float]:
         muscle_volume = defaultdict(int)
         if not self.data:
             return muscle_volume
@@ -41,9 +42,16 @@ class AnalysisService:
 
 
     def analyze_data(self):
-        self.results = {"status": "success", "results": {"count": len(self.data), 'seven_day_volume_heatmap': self.__get_weekly_volume_heatmap(), 'muscle_wise_volume': self.__get_muscle_wise_volume()}}
+        self.results = analysis_pb2.AnalysisResult(
+            status="success",
+            results=analysis_pb2.Metrics(
+                count=len(self.data),
+                seven_day_volume_heatmap=self.__get_weekly_volume_heatmap(),
+                muscle_wise_volume=self.__get_muscle_wise_volume()
+            )
+        )
 
 
-    def get_analysis_results(self):
+    def get_analysis_results(self) -> analysis_pb2.AnalysisResult:
         # return {"status": "success", "results": len(self.data)}
-        return self.results if self.results else {"status": "no results", "message": "No analysis results available"}
+        return self.results if self.results else analysis_pb2.AnalysisResult(status="error", results=analysis_pb2.Metrics())

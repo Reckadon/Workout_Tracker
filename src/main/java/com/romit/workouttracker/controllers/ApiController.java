@@ -1,12 +1,15 @@
 package com.romit.workouttracker.controllers;
 
+import com.romit.workouttracker.DTOs.AnalysisResultDTO;
 import com.romit.workouttracker.DTOs.LogWorkoutRequest;
-import com.romit.workouttracker.DTOs.WorkoutDTO;
+import com.romit.workouttracker.DTOs.MetricsDTO;
+import com.romit.workouttracker.clients.DataAnalysisGRPCClient;
 import com.romit.workouttracker.clients.PythonServiceClient;
 import com.romit.workouttracker.projections.ExerciseSlim;
 import com.romit.workouttracker.services.ExercisesService;
 import com.romit.workouttracker.services.JWTService;
 import com.romit.workouttracker.services.WorkoutService;
+import com.romit.workouttracker.proto.*;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -19,13 +22,15 @@ public class ApiController {
     private final ExercisesService exercisesService;
     private final JWTService jwt;
     private final WorkoutService workoutService;
-    private final PythonServiceClient pythonServiceClient;
+//    private final PythonServiceClient pythonServiceClient;
+    private final DataAnalysisGRPCClient dataAnalysisGRPCClient;
 
-    public ApiController(ExercisesService exercisesService, JWTService jwt, WorkoutService workoutService, PythonServiceClient pythonServiceClient) {
+    public ApiController(ExercisesService exercisesService, JWTService jwt, WorkoutService workoutService, PythonServiceClient pythonServiceClient, DataAnalysisGRPCClient dataAnalysisGRPCClient) {
         this.exercisesService = exercisesService;
         this.jwt = jwt;
         this.workoutService = workoutService;
-        this.pythonServiceClient = pythonServiceClient;
+//        this.pythonServiceClient = pythonServiceClient;
+        this.dataAnalysisGRPCClient = dataAnalysisGRPCClient;
     }
 
     @GetMapping("/exercises")
@@ -50,9 +55,31 @@ public class ApiController {
     }
 
     @GetMapping("/workout/analysis")
-    public String getWorkoutLog(@RequestHeader("Authorization") String auth)  {
+    public AnalysisResultDTO getWorkoutLog(@RequestHeader("Authorization") String auth)  {
         String token = auth.substring(7);
         String username = jwt.extractUsername(token);
-        return pythonServiceClient.callPastWeekAnalysis(workoutService.getPastWeekWorkouts(username));
+        // convert past week workouts' raw data to proto format
+        PastWeekWorkouts pastWeekWorkouts = PastWeekWorkouts.newBuilder()
+            .addAllWorkouts(workoutService.getPastWeekWorkouts(username).stream().map(dto ->
+                WorkoutData.newBuilder()
+                    .setWorkoutId(Math.toIntExact(dto.id()))
+                    .setDate(dto.workoutDateTime().toString())
+                    .addAllExercises(dto.exercises().stream().map(exercise ->
+                            WorkoutExercise.newBuilder()
+                                    .setPrimaryMuscleGroup(exercise.primaryMuscles())
+                                    .setName(exercise.exerciseName())
+                                    .setSets(exercise.sets())
+                                    .setReps(exercise.reps())
+                                    .setWeight(exercise.weight())
+                                    .build()
+                    ).toList())
+                    .build()
+            ).toList())
+            .build();
+
+        // get proto response from gRPC service
+        AnalysisResult res = dataAnalysisGRPCClient.callPastWeekAnalysis(pastWeekWorkouts);
+        // convert to DTO
+        return new AnalysisResultDTO(res.getStatus(), new MetricsDTO(res.getResults().getCount(), res.getResults().getSevenDayVolumeHeatmapList(), res.getResults().getMuscleWiseVolumeMap()));
     }
 }

@@ -1,4 +1,4 @@
-import analysis_pb2 as analysis_pb2
+import analysis_pb2
 from models.Workout import Workout
 from datetime import datetime
 from collections import defaultdict

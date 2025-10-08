@@ -33,3 +33,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+.__pycache__/
+*.pyc
+analysis_pb2.py
+analysis_pb2_grpc.py

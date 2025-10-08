@@ -90,6 +90,16 @@ A full-stack Java (Spring Boot) + gRPC + Python + React.ts application to log an
     ```
    or by using Intellij/Eclipse run configurations. (make sure to set VM options if needed, and generate gRPC classes using `./mvnw clean compile`)
    
+### Building and Packaging
+To build a jar:
+```bash
+./mvnw clean package
+```
+Run the jar:
+```bash
+java -Duser.timezone=Asia/Kolkata -jar target/WorkoutTracker-0.0.1-SNAPSHOT.war
+```
+
 ---
 ### Debugging
 1. To fix: `Caused by: org.postgresql.util.PSQLException: FATAL: invalid value for parameter "TimeZone": "Asia/Calcutta"`  
